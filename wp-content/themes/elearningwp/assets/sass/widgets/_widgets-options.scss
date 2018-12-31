@@ -1,0 +1,755 @@
+.owl-carousel {
+	.owl-pagination, .owl-dots {
+		.owl-page, .owl-dot {
+			&.active, &:hover {
+				span {
+					background: $thim_thim_body_primary_color;
+					border-color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.widget-area {
+	aside {
+		ul {
+			li {
+				a {
+					color: $thim_thim_font_title_color;
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.widget_recent_entries {
+	ul {
+		.entry-wrap {
+			.entry-title {
+				a {
+					color: $thim_thim_font_title_color;
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.widget-box-title {
+	.browse-all-courses {
+		&:hover {
+			color: $thim_thim_body_primary_color;
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+	p {
+		font-size: $thim_thim_font_h6_font_size;
+		line-height: $thim_thim_font_h6_line_height;
+	}
+}
+
+.wrapper-item {
+	.inner-course {
+		.course-date {
+			background: $thim_thim_body_primary_color;
+		}
+		.course-title {
+			a {
+				color: $thim_thim_font_body_color;
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+		.course-instructor {
+			a {
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+		.course-price {
+			color: $thim_thim_body_primary_color;
+			font-size: $thim_thim_font_h4_font_size;
+		}
+	}
+	.owl-buttons, .owl-nav {
+		.owl-prev, .owl-next {
+			&:hover {
+				border-color: $thim_thim_body_primary_color;
+				background: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.courses-layout-02 {
+	li {
+		.inner-course {
+			.course-price {
+				color: $thim_thim_body_primary_color;
+			}
+			.course-instructor {
+				color: $thim_thim_footer_text_font_color;
+				a {
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.site-footer {
+	.courses-layout-02 {
+		li {
+			.inner-course {
+				h2 a {
+					color: $thim_thim_footer_title_font_color;
+					&:hover {
+						color: $thim_thim_footer_title_font_color;
+					}
+				}
+			}
+			.course-instructor {
+				color: $thim_thim_footer_text_font_color;
+				a {
+					color: $thim_thim_footer_text_font_color;
+					&:hover {
+						color: $thim_thim_footer_title_font_color;
+					}
+				}
+			}
+		}
+	}
+	.widget-box-title.layout-02 {
+		.title {
+			color: $thim_thim_footer_title_font_color;
+		}
+	}
+}
+
+.wrapper-instruction {
+	.avatar-instructors {
+		.number-courses {
+			background: $thim_thim_body_primary_color;
+		}
+		&:hover {
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+	h5 {
+		a {
+			color: $thim_thim_font_body_color;
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+	.author-social {
+		a {
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.thim-widget-courses-searching .courses-searching {
+	button {
+		&:hover {
+			background: $thim_thim_font_body_color;
+		}
+	}
+	ul.courses-list-search {
+		li {
+			&.ob-selected {
+				a {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+	&.layout-top {
+		button {
+			color: $thim_thim_body_primary_color;
+			&:hover {
+				background: transparent;
+			}
+		}
+	}
+}
+
+.thim-widget-courses-searching {
+	.courses-searching {
+		&.search-layout-02 {
+			ul.courses-list-search {
+				background: $thim_thim_sub_menu_bg_color !important;
+				li {
+					a {
+						color: $thim_thim_sub_menu_text_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.wrapper-author {
+	.author-right {
+		background: $thim_thim_body_primary_color;
+		h5 {
+			font-size: $thim_thim_font_h3_font_size;
+			line-height: $thim_thim_font_h3_line_height;
+		}
+	}
+}
+
+.wrapper-instruction-of-month {
+	.item-course {
+		.course-title {
+			font-size: $thim_thim_font_h5_font_size;
+			line-height: $thim_thim_font_h5_line_height;
+			a {
+				color: $thim_thim_font_title_color;
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+		.author {
+			a {
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+		.wrapper-rate {
+			> span {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+	.link-readmore:hover {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.testimonial_content {
+	font-size: $thim_thim_font_h6_font_size;
+	line-height: $thim_thim_font_h6_line_height;
+	&:before {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.title-regency {
+	h6 {
+		&:hover {
+			color: $thim_thim_body_primary_color !important;
+		}
+	}
+}
+
+ul.tweet li {
+	&:before {
+		color: $thim_thim_footer_title_font_color;
+	}
+}
+
+a.widget-button {
+	&.normal {
+		background: $thim_thim_body_primary_color;
+	}
+	&.medium {
+		background: $thim_thim_body_primary_color;
+	}
+	&.large {
+		background: $thim_thim_body_primary_color;
+	}
+	&.btn_gray {
+		&.medium {
+			&:hover {
+				background: $thim_thim_body_primary_color;
+				border-color: $thim_thim_body_primary_color;
+			}
+
+		}
+	}
+}
+
+.collapse-heading {
+	a {
+		background: $thim_thim_body_primary_color;
+		&.collapsed {
+			color: $thim_thim_font_title_color;
+			&:after {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+	h4 {
+		font-size: $thim_thim_font_h6_font_size;
+		line-height: $thim_thim_font_h6_line_height;
+	}
+}
+
+.smicon-read {
+	font-size: $thim_thim_font_h6_font_size;
+}
+
+.iconbox-hover {
+	&:hover {
+		.thim-widget-icon-box {
+			background-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.icon-box-title {
+	span {
+		color: $thim_thim_body_primary_color;
+	}
+}
+.desc-icon-box {
+	a:hover {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.popular-courses {
+	&.layout-01 {
+		.feature-img {
+			.mask {
+				.mask-content {
+					.price {
+						background: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+		.courses-content {
+			h3 {
+				a {
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+			h4 {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+	&.layout-02 {
+		.courses-inner {
+			.feature-img {
+				.mask {
+					.mask-content {
+						.price {
+							background: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+			.courses-content {
+				h4 {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.posts-display {
+	.entry-container {
+		h3 {
+			font-size: $thim_thim_font_h6_font_size;
+			line-height: $thim_thim_font_h6_line_height;
+			a {
+				&:hover {
+					color: $thim_thim_body_primary_color !important;
+				}
+			}
+		}
+		.entry-meta {
+			a:hover {
+				color: $thim_thim_body_primary_color
+			}
+		}
+	}
+}
+
+.recent-comments {
+	.comment-post {
+		a {
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+		&:before {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.thim-social {
+	a {
+		&:hover {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.bg_maps {
+	.thim-widget-social {
+		li {
+			a {
+				&:hover {
+					background-color: $thim_thim_body_primary_color;
+					border-color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.woo-social {
+	ul.social_link {
+		li {
+			a {
+				&:hover {
+					background: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.thim-widget-tab {
+	.nav-tabs {
+		li {
+			a {
+				color: $thim_thim_font_title_color;
+				font-size: $thim_thim_font_h6_font_size;
+			}
+			&.active, &:hover {
+				border-color: $thim_thim_body_primary_color;
+				a {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.widget-area {
+	aside {
+		color: $thim_thim_font_body_color;
+		a {
+			color: $thim_thim_font_body_color;
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+		.widget-title {
+			&:before {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.filter_courses {
+	.filter {
+		li {
+			&.active {
+				a {
+					color: $thim_thim_body_primary_color;
+					border-color: $thim_thim_body_primary_color;
+				}
+			}
+			&:hover {
+				a {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.sc-testimonials {
+	&.layout-03 {
+		.item_testimonial {
+			.testimonial_content {
+				.title-regency {
+					h6 {
+						a {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.thim-round-testimonial .control-nav:hover {
+	color: $thim_thim_body_primary_color;
+}
+
+.thim_post_slider {
+	.thim-widget-post-display {
+		.widget-box-title {
+			//background-color: $thim_thim_body_primary_color;
+		}
+		.posts-display {
+			.item {
+				.entry-container {
+					.entry-meta {
+						a {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.commingsoon_courses {
+	.courses-slider {
+		article {
+			.meta_course {
+				.heading_info {
+					ul {
+						li {
+							span {
+								color: $thim_thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.owl-nav {
+		div[class*="owl-"] {
+			&:hover {
+				i {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.courses-media-slider {
+	article {
+		.meta_course {
+			.heading_info {
+				ul {
+					li {
+						span {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+		.wrapper-course-thumbnail {
+			.icon-video {
+				&:hover {
+					border-color: $thim_thim_body_primary_color;
+					color: $thim_thim_body_primary_color;
+				}
+			}
+			.info_course {
+				.course-sharing {
+					li {
+						a:hover {
+							border-color: $thim_thim_body_primary_color;
+							background: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.owl-nav {
+		div[class*="owl-"] {
+			&:hover {
+				i {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.inner_box_search {
+	.textwidget {
+		h3 {
+			span {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+	.thim-widget-courses-searching {
+		.courses-searching {
+			button {
+				background-color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+.boxes-icon.circle:hover {
+	box-shadow: inset 0 0 0 2px $thim_thim_body_primary_color;
+}
+.icon_box_4 {
+	.boxes-icon {
+		.inner-icon {
+			.icon {
+				color: $thim_thim_body_primary_color;
+				&:before {
+					background-color: $thim_thim_body_primary_color;
+				}
+				&:after {
+					border-left-color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+	&:hover {
+		.content-inner {
+			.icon-box-title {
+				a {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.thim-round-testimonial {
+	.slides-content {
+		.slide-content {
+			.socials {
+				li {
+					a {
+						background: $thim_thim_body_primary_color;
+					}
+				}
+			}
+			.title {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.scroll-down {
+	&:visited, &:focus {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.slider-title {
+	.line-bottom {
+		background-color: $thim_thim_body_primary_color;
+	}
+	span {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.ob-slider-base {
+	.local-scroll {
+		a span {
+			font-size: $thim_thim_font_h6_font_size;
+		}
+	}
+	/* Some jQuery Cycle Specific CSS */
+	.ob-slide-nav {
+		a {
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.course_banners {
+	.grid_type {
+		div[class*="item_col_"] {
+			.item_inner {
+				&:hover {
+					.info_course {
+						h2 {
+							a {
+								color: $thim_thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#sidebar {
+	.widget-box-title {
+		&:after {
+			background-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.single-image-title {
+	&:before {
+		background: $thim_thim_body_primary_color;;
+	}
+	.single-content {
+		.link {
+			border-color: $thim_thim_body_primary_color;
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+.contact-icon .thim-widget-icon-box:hover .icon-box-title {
+	color: $thim_thim_body_primary_color !important;
+}
+
+.thim-widget-gallery-posts {
+	.wrapper-filter-controls {
+		a {
+			&.active, &:hover {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+.gallery-watch {
+	.btn.btn-primary {
+		&:hover {
+			background: darken($thim_thim_body_primary_color,10%);
+		}
+	}
+}
+
+// Megamenu Thim: Course layout
+.menu-item.tc-menu-layout-builder{
+	.thim-courses-megamenu{
+		.more-detail{
+			background-color: $thim_thim_body_primary_color;
+		}
+	}
+}

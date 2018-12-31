@@ -1,0 +1,115 @@
+/** Onsale 
+ *	cate grid, list
+ */
+.woocommerce ul.products li.product .onsale, 
+.woocommerce-page ul.products li.product .onsale {
+	box-shadow: none;
+	text-shadow: none;
+	border: none;
+	margin: 0;
+	border-radius: 50%;
+	min-width: 40px;
+	min-height: 40px;
+	line-height: 32px;
+	font-size: 12px;
+	z-index: 1;
+}
+
+/* Star Color */
+.woocommerce .star-rating span:before, 
+.woocommerce-page .star-rating span:before {
+	color: #f8d561;
+}
+
+/* Woo Message */
+.woocommerce .woocommerce-info, 
+.woocommerce-page .woocommerce-info {
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: none;
+	&:before {
+		border-radius: 0;
+		padding: 0;
+	}
+}
+
+.woocommerce .woocommerce-error,
+.woocommerce-page .woocommerce-error {
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: none;
+	&:before {
+		border-radius: 0;
+		padding: 0;
+	}
+}
+
+.woocommerce .woocommerce-message,
+.woocommerce-page .woocommerce-message {
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: none;
+	&:before {
+		border-radius: 0;
+		padding: 0;
+	}
+	.button {
+		box-shadow: none;
+		text-shadow: none;
+		border-radius: 0;
+		background: 0 0;
+		text-transform: uppercase;
+		color: $white;
+		border: none;
+		padding: 14px 20px 10px 20px;
+		font-size: 13px;
+		line-height: 13px;
+	}
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img{
+	width: 60px;
+}
+.shop-description{
+	margin-bottom: 25px;
+}
+
+.woocommerce #respond input#submit{
+	color: #fff;
+	&:hover{
+		background: #323945;
+		color: #fff;
+	}
+}
+.woocommerce a.button {
+  color: #fff;
+  &:hover{
+	background: #323945;
+  }
+}
+.woocommerce button.button {
+  color: #fff;
+  &:hover{
+	background: #323945;
+  }
+}
+.woocommerce input.button {
+  color: #fff;
+  &:hover{
+	background: #323945;
+  }
+}
+
+.woocommerce .price ins .amount{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+.woocommerce .alignleft + .sticky-sidebar{
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+.woocommerce .alignright + .sticky-sidebar{
+	padding-left: 0;
+}

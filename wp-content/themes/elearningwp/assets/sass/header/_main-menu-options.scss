@@ -1,0 +1,211 @@
+/* Bootstrap */
+.navigation {
+	.navbar-nav {
+		li.tc-menu-layout-default, li.tc-menu-layout-column {
+			.sub-menu {
+				background:      $thim_thim_sub_menu_bg_color;
+				li {
+					&.current-menu-item, .current-menu-ancestor {
+						> a, > span.disable_link {
+							color: $thim_thim_sub_menu_text_color_hover;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.site-header {
+	background: $thim_thim_bg_main_menu_color;
+}
+
+.bg-custom-sticky.affix {
+	background: $thim_thim_sticky_bg_main_menu_color;
+	.navbar-nav {
+		> li {
+			&.current-menu-item, .current-menu-ancestor {
+				> a, > span.disable_link {
+					color: $thim_thim_sticky_main_menu_text_hover_color;
+					span {
+						border-color: $thim_thim_sticky_main_menu_text_hover_color;
+					}
+				}
+			}
+			> a, > span.disable_link {
+				color: $thim_thim_sticky_main_menu_text_color;
+				&:hover {
+					color: $thim_thim_sticky_main_menu_text_hover_color;
+					span {
+						border-color: $thim_thim_sticky_main_menu_text_hover_color;
+					}
+				}
+			}
+			&.menu-item-has-children {
+				> a, > span.disable_link {
+					&:after {
+						color: $thim_thim_sticky_main_menu_text_color;
+					}
+				}
+			}
+		}
+		li.menu-right {
+			li {
+				a, span, div {
+					color: $thim_thim_sticky_main_menu_text_color;
+					&:hover {
+						color: $thim_thim_sticky_main_menu_text_hover_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.menu-main-menu {
+	> .menu {
+		ul {
+			> li {
+				&:hover, &.current_page_item, &.current_page_ancestor {
+					> a, > span {
+						color: $thim_thim_sticky_main_menu_text_hover_color;
+						> span {
+							color: $thim_thim_sticky_main_menu_text_hover_color;
+						}
+					}
+				}
+				.children {
+					li {
+						&:hover, &.current_page_item, &.current_page_ancestor {
+							> a, > span {
+								color: $thim_thim_sticky_main_menu_text_hover_color;
+								> span {
+									color: $thim_thim_sticky_main_menu_text_hover_color;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.mobile-menu-container {
+		.navbar-nav {
+			> li {
+				.sub-menu {
+					> li {
+						&.current-menu-item, &.curren-menu-parent, &:hover {
+							> a, > span {
+								color: $thim_thim_main_menu_text_hover_color;
+								span {
+									border-color: $thim_thim_main_menu_text_hover_color;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.nav > li .sub-menu, .nav > li.multicolumn > .sub-menu, .nav > li.widget_area > .sub-menu {
+		a, span {
+			color: $thim_thim_sub_menu_text_color;
+		}
+		a {
+			&:hover {
+				color: $thim_thim_sub_menu_text_color_hover;
+			}
+		}
+	}
+
+	.menu-right {
+		li {
+			a, span, div {
+				//color:       $thim_thim_main_menu_text_color;
+				font-size:   $thim_thim_font_size_main_menu;
+				font-weight: $thim_thim_font_weight_main_menu;
+				&:hover {
+					color: $thim_thim_main_menu_text_hover_color
+				}
+			}
+		}
+	}
+
+	.navigation, .mobile-menu-container {
+		.navbar-nav {
+			> li {
+				> a, > span {
+					color:       $thim_thim_main_menu_text_color;
+					font-size:   $thim_thim_font_size_main_menu;
+					font-weight: $thim_thim_font_weight_main_menu;
+				  display: block;
+				}
+				&.menu-item-has-children {
+					> a, > span {
+						&:after {
+							color:       $thim_thim_main_menu_text_color
+						}
+					}
+				}
+				&.current-menu-item, &.current-menu-ancestor, &:hover {
+					> a, > span {
+						color: $thim_thim_main_menu_text_hover_color;
+						span {
+							border-color: $thim_thim_main_menu_text_hover_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.mobile-menu-container {
+		.navbar-nav {
+			> li {
+				.sub-menu {
+					> li {
+						&.current-menu-item, &.curren-menu-parent, &:hover {
+							> a, > span {
+								color: $thim_thim_main_menu_text_hover_color;
+								span {
+									border-color: $thim_thim_main_menu_text_hover_color;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.mobile-menu-container {
+		.navbar-nav {
+			> li {
+				> a, > span {
+					color:       $thim_thim_main_menu_text_color;
+					font-size:   $thim_thim_font_size_main_menu;
+					font-weight: $thim_thim_font_weight_main_menu;
+					display: block;
+				}
+				&.menu-item-has-children {
+					> a, > span {
+						&:after {
+							color:       $thim_thim_main_menu_text_color
+						}
+					}
+				}
+				&.current-menu-item, &.current-menu-ancestor, &:hover {
+					> a, > span {
+						color: $thim_thim_main_menu_text_hover_color;
+						span {
+							border-color: $thim_thim_main_menu_text_hover_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}

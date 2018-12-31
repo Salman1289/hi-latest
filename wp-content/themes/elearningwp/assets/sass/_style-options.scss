@@ -1,0 +1,18 @@
+/*
+ * Style Options
+ * Import style option all shortcodes, widgets
+ * Style all selector variable form customizer */
+
+$dev: true;
+
+@import "theme/theme-options";
+@import "header/header-options";
+@import "header/main-menu-options";
+@import "widgets/widgets-options";
+@import "woo/woo-options";
+@import "learnpress/learnpress-options";
+@import "extend/bbpress-forum-options";
+@import "extend/buddypress-options";
+@import "theme/preloading/style-options";
+@import "blog/blog-options";
+@import "page-title/page-title-options";

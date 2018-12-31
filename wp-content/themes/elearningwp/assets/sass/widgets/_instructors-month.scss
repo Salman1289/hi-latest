@@ -1,0 +1,137 @@
+.wrapper-author {
+	display:      table;
+	table-layout: fixed;
+	.avatar-instructors {
+		width:          55%;
+		display:        table-cell;
+		vertical-align: top;
+	}
+
+	.author-right {
+		width:          45%;
+		display:        table-cell;
+		vertical-align: top;
+		h5 {
+			font-weight:   bold;
+			text-align:    center;
+			margin-bottom: 0;
+			padding-left:  15px;
+			padding-right: 15px;
+			margin-top:    20px;
+			a {
+				color: #ffffff;
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+		.author-major {
+			padding-left:  15px;
+			padding-right: 15px;
+			text-align:    center;
+			color:         #ffffff;
+			font-style:    italic;
+		}
+		.number-courses {
+			border-width: 1px 0;
+			border-style: solid;
+			border-color: #6EC56A;
+			color:        #ffffff;
+			padding:      10px 20px;
+			width:        100%;
+			display:      block;
+			margin:       15px 0;
+			font-style:   italic;
+			b {
+				font-style: normal;
+				float:      right;
+			}
+		}
+		.desc-author {
+			color:      #fff;
+			opacity:    0.5;
+			font-style: italic;
+			padding:    0 20px 15px 20px;
+		}
+		.author-social {
+			text-align: center;
+			font-size:  16px;
+			border-top: 1px solid #6EC56A;
+			padding:    15px 10px;
+			a {
+				color:  #ffffff;
+				margin: 5px;
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+}
+
+.wrapper-instruction-of-month {
+	.item-course {
+		display:       table;
+		margin-bottom: 15px;
+		width:         100%;
+		border:        1px solid #DDD;
+		table-layout:  fixed;
+		.wrapper-course-thumbnail, .item-course-right {
+			width:          33%;
+			display:        table-cell;
+			vertical-align: middle;
+		}
+		.item-course-right {
+			width:         67%;
+			padding-left:  30px;
+			padding-right: 15px;
+		}
+		.course-title {
+			font-weight: bold;
+		}
+		.author {
+			line-height: 32px;
+			font-style:  italic;
+			a {
+				font-weight: bold;
+				color:       #888;
+			}
+		}
+		p.review-number {
+			display: none;
+		}
+		.wrapper-rate {
+			table-layout: fixed;
+			display:      table;
+			width:        100%;
+			.course-rate, > span {
+				width:          50%;
+				display:        table-cell;
+				vertical-align: middle;
+			}
+			> span {
+				text-align:  right;
+				font-weight: bold;
+			}
+		}
+
+	}
+	.link-readmore {
+		color:           #AAA;
+		font-weight:     bold;
+		text-decoration: underline;
+		line-height:     25px;
+		width:           100%;
+		display:         inline-block;
+		text-align:      right;
+		i {
+			margin-left: 5px;
+		}
+	}
+}
+
+.thim-widget-instructors-of-month {
+	padding-bottom: 60px;
+	padding-top:    60px;
+}
+

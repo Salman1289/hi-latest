@@ -1,0 +1,59 @@
+/* btn */
+#buddypress .comment-reply-link,
+#buddypress a.button,
+#buddypress button,
+#buddypress div.generic-button a,
+#buddypress input[type=button],
+#buddypress input[type=reset],
+#buddypress input[type=submit],
+#buddypress ul.button-nav li a,
+a.bp-title-button {
+	span {
+		background: $thim_thim_body_primary_color;
+	}
+}
+/* submit btn */
+#buddypress input[type=submit] {
+	background:     $thim_thim_body_primary_color;
+}
+#buddypress {
+	/* List tab */
+	div.item-list-tabs#subnav {
+		ul {
+			li {
+				a {
+					font-size:     $thim_thim_font_h6_font_size;
+					line-height:   $thim_thim_font_h6_line_height;
+					&:hover {
+						color:        $thim_thim_body_primary_color !important;
+						border-color: $thim_thim_body_primary_color;
+					}
+				}
+				&.current {
+					a {
+						color:        $thim_thim_body_primary_color !important;
+						border-color: $thim_thim_body_primary_color;
+						span {
+							background:   $thim_thim_body_primary_color;
+							border-color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+				&.selected {
+					a {
+						color:       $thim_thim_body_primary_color !important;
+						span {
+							background:   $thim_thim_body_primary_color;
+							border-color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.single-member {
+		h2.user-nicename {
+			font-size:      $thim_thim_font_h3_font_size;
+		}
+	}
+}

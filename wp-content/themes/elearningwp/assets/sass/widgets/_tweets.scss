@@ -1,0 +1,47 @@
+
+footer#colophon .footer ul.tweet li > a:before {
+	display: none;
+}
+
+ul.tweet li {
+	position:      relative;
+	margin-bottom: 5px;
+	padding-left:  25px;
+	&:before {
+		font:     normal normal normal 16px/1 FontAwesome;
+		content:  "\f099";
+		position: absolute;
+		top:      5px;
+		left:     0;
+	}
+	i {
+		display:    block;
+		margin-top: 8px;
+		color:      #666;
+ 	}
+}
+.widget_thimtwitter {
+	.widget-title {
+		i {
+			display: none;
+		}
+	}
+	.thim-tweets {
+		.tweet-item {
+			position:      relative;
+			margin-bottom: 20px;
+			padding-left:  25px;
+			&:before {
+				font:     normal normal normal 16px/1 FontAwesome;
+				content:  "\f099";
+				position: absolute;
+				top:      5px;
+				left:     0;
+				color: #fff;
+			}
+		}
+		.user {
+			display: none;
+		}
+	}
+}

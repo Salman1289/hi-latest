@@ -1,0 +1,6 @@
+2018-12-12T11:10:16+00:00 CRITICAL Out of memory (allocated 49283072) (tried to allocate 768 bytes) in D:\xampp\htdocs\hybrid-ins\wp-includes\class-wp-customize-manager.php on line 1773
+
+2018-12-12T11:10:16+00:00 CRITICAL Out of memory (allocated 52690944) (tried to allocate 28672 bytes) in D:\xampp\htdocs\hybrid-ins\wp-content\themes\elearningwp\inc\widgets\icon-box\icon-box.php on line 139
+
+2018-12-12T11:10:17+00:00 CRITICAL Out of memory (allocated 49020928) (tried to allocate 1792 bytes) in D:\xampp\htdocs\hybrid-ins\wp-content\plugins\mailchimp-for-wp\includes\class-dynamic-content-tags.php on line 41
+

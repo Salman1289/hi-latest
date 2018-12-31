@@ -1,0 +1,52 @@
+span[class*="thim_widgets_"]:before {
+    content: "";
+    width: 20px;
+    background-image: url(icon_widget.png);
+    height: 20px;
+    display: block;
+}
+.thim_widgets_tab {
+
+}
+.thim_widgets_button:before {
+    background-position: center 281px;
+}
+.thim_widgets_twitter:before {
+    background-position: center 20px;
+}
+.thim_widgets_courses:before {
+    background-position: center 180px;
+}
+.thim_widgets_courses_searching:before {
+    background-position: center 200px;
+}
+.thim_widgets_form_login:before {
+    background-position: center 100px;
+}
+.thim_widgets_gallery_images:before {
+    background-position: center 320px;
+}
+.thim_widgets_icon_box:before {
+    background-position: center 120px;
+}
+.thim_widgets_list_post:before {
+    background-position: center 160px;
+}
+.thim_widgets_single_image:before {
+    background-position: center 420px;
+}
+.thim_widgets_team:before {
+    background-position: center 140px;
+}
+.thim_widgets_heading:before {
+    background-position: center 260px;
+}
+.thim_widgets_testimonial:before {
+    background-position: center 60px;
+}
+.thim_widgets_social:before {
+    background-position: center 80px;
+}
+.thim_widgets_top_instructor:before {
+    background-position: center 140px;
+}

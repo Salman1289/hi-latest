@@ -1,0 +1,38 @@
+.woocommerce-checkout {
+	form.checkout {
+		background: $white;
+		padding: 30px;
+		.input-text {
+			padding: 10px;
+		}
+		#order_review {
+			table.shop_table {
+				border-radius: 0;
+				td {
+					border: none;
+					border-top: 1px solid rgba(0,0,0,.1);
+				}
+			}
+			#payment {
+				border-radius: 0;
+				div.payment_box {
+					border-radius: 0;
+					box-shadow: none;
+				}
+				#place_order {
+					box-shadow: none;
+					text-shadow: none;
+					border-radius: 0;
+					background: 0 0;
+					text-transform: uppercase;
+					color: $white;
+					border: none;
+					padding: 14px 20px 10px 20px;
+					font-size: 13px;
+					line-height: 0;
+					line-height: 1.2;
+				}
+			}
+		}
+	}
+}

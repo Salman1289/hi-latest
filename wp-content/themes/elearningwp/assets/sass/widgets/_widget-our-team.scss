@@ -1,0 +1,88 @@
+/*List1*/
+.wrapper-lists-our-team {
+	li{
+		list-style: none;
+	}
+	&.list1 {
+		li {
+			margin-bottom: 30px;
+
+		}
+		.content-list-our-team {
+			.our-team-image {
+				position: relative;
+				overflow: hidden;	
+				border-top-right-radius: 20%;
+				border-top-left-radius: 20%;
+				border-bottom-right-radius: 20%;
+				/*img {
+					.transition();
+				}*/
+			}
+			.content-team {
+				margin-top: 20px;
+				> h4 {
+					font-size: 22px;
+					color: $title-color;
+					font-weight: bold;
+				}
+				.regency {
+					color: $wg-text-color;
+				}
+			}
+			&:hover {
+				.hidden-child {
+					top: 0;
+				}
+				/*.our-team-image {
+					img {
+						transform: scale(1.1, 1.1);
+					}
+				}*/
+			}
+			.hidden-child {
+			  @include transition();
+
+				position: absolute;
+				top: 100%;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: rgba(255, 255, 255, 0.3);
+				text-align: center;
+				&:before {
+					content: "";
+					display: inline-block;
+					vertical-align: middle;
+					height: 100%;
+				}
+				.social-team {
+					display: inline-block;
+					vertical-align: middle;
+					height: auto;
+					width: auto;
+					text-align: center;
+					margin: 0;
+					li {
+						list-style: none;
+						display: inline-block;
+						margin-right: 10px;
+						&:last-child {
+							margin-right: 0;
+						}
+						i {
+							font-size: 28px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1375px) and (min-width: 768px ) {
+
+}
+
+/*End List1*/
+

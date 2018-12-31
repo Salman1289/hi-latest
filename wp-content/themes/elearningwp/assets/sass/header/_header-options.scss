@@ -1,0 +1,53 @@
+#rt-drawer {
+  //background: $thim_thim_bg_drawer_color;
+  //color: $thim_thim_drawer_text_color;
+  &.style2 {
+    .drawer_link {
+      border-color: transparent $thim_thim_body_primary_color transparent transparent;
+    }
+  }
+}
+.site-header {
+  background-color: $thim_thim_bg_main_menu_color;
+  &.header_v5 {
+    border-top-color: $thim_thim_body_primary_color;
+    .width-sidebar-right li {
+      a {
+        &:hover {
+          color: $thim_thim_body_primary_color;
+        }
+      }
+      .btn.btn-primary a {
+        &:hover {
+          color: $thim_thim_body_primary_color !important;
+        }
+      }
+    }
+  }
+  &.header_v3 {
+    border-top-color: $thim_thim_body_primary_color;
+    .width-navigation {
+      label {
+        color: $thim_thim_body_primary_color;
+      }
+    }
+  }
+  &.header_v4 {
+    border-top-color: $thim_thim_body_primary_color;
+    .width-sidebar-right {
+      li {
+        a {
+          font-family: $thim_thim_font_title_font_family;
+          &:hover {
+            color: $thim_thim_body_primary_color;
+          }
+        }
+        .btn-primary {
+          a:hover {
+            color: $thim_thim_body_primary_color !important;
+          }
+        }
+      }
+    }
+  }
+}

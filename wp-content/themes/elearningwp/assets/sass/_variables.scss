@@ -1,0 +1,29 @@
+//@primary: green;
+//body {color: @primary;}
+$black: #000;
+$white: #fff;
+$icon-font-path : '../../../framework/fonts/';
+$grey : #dedede;
+$blue: #009eca;
+$green: #7CC576;
+$red: #f7827e;
+$dark: #333;
+$light: #ddd;
+$orange: #f6ba70;
+$lightblue: #58c5c0;
+$darkblue: #42555c;
+
+$padding-default: 30px;
+
+$max-width-blog: 270px;
+$max-height-blog: 180px;
+
+/* blog border color */
+$border-color: #EEEEEE;
+$border-color2: #e8e8e8;
+
+/* Title blog, title widget color */
+$title-color: #323945;
+/* Text widget color */
+$wg-text-color: #999999;
+$bg_sidebar: #F6F9FA;

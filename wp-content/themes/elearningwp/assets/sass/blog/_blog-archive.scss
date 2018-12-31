@@ -1,0 +1,149 @@
+.blog, .archive:not(.post-type-archive) {
+
+	.site-content {
+		padding: 75px 15px;
+	}
+
+	article {
+		.entry-header {
+			margin-bottom: 30px;
+			display: inline-block;
+			width: 100%;
+			.entry-date {
+				border-right: 1px solid #ddd;
+				width: 70px;
+				float: left;
+				height: 52px;
+				margin-right: 30px;
+				padding-right: 30px;
+				text-align: center;
+				span {
+					width: 100%;
+					display: block;
+				}
+				.day {
+					line-height: 25px;
+					font-style: normal;
+					font-size: 34px;
+					margin-bottom: 14px;
+				}
+				.month {
+					line-height: 14px;
+					font-style: normal;
+					font-size: 14px;
+					text-transform: uppercase;
+					margin: 0px;
+				}
+			}
+			.blog_title {
+				font-size: 24px;
+				line-height: 25px;
+				margin: 0;
+				margin-bottom: 17px;
+			}
+			.entry-meta {
+				margin: 0;
+				font-size: 12px;
+				line-height: 12px;
+				color: #666;
+				span {
+					color: #666;
+					letter-spacing: 0.2px;
+					font-style: normal;
+				}
+			}
+		}
+		.entry-content {
+			position: relative;
+			.entry-summary {
+				padding: 20px 0px;
+			}
+			.readmore {
+				color: #FFF;
+				font-size: 16px;
+				font-weight: bold;
+				height: 39px;
+				padding: 0px 30px;
+				display: inline-block;
+				line-height: 39px;
+				@include rounded(4px);
+			}
+			.thim-post-social-share {
+				position: absolute;
+				right: 0;
+				bottom: 9px;
+			}
+		}
+		border-bottom: 1px solid #eee;
+		margin-bottom: 60px;
+		padding-bottom: 60px;
+		&:last-child {
+			border-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	.loop-pagination, .pagination {
+		text-align: left;
+		li {
+			margin-right: 10px;
+			.page-numbers {
+				width: 40px;
+				height: 40px;
+				line-height: 38px;
+				&.next {
+					&:before {
+						line-height: 38px;
+					}
+				}
+				&.prev {
+					&:before {
+						line-height: 38px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.entry-meta {
+	a {
+		color: #666;
+	}
+	span {
+		&:first-child {
+			&:before {
+				content: "";
+			}
+		}
+		&:before {
+			content: "/";
+			position: relative;
+			padding: 0px 3px;
+		}
+	}
+}
+
+.thim-post-social-share {
+	ul {
+		margin: 0;
+		li {
+			display: inline;
+			margin-left: 10px;
+			.link {
+				width: 30px;
+				height: 30px;
+				color: #999;
+				display: inline-block;
+				text-align: center;
+				line-height: 28px;
+				border: 1px solid #eee;
+				border-radius: 50%;
+				font-size: 14px;
+				&:hover {
+					color: #FFF;
+				}
+			}
+		}
+	}
+}

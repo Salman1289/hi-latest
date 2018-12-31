@@ -1,0 +1,25 @@
+.recent-comments {
+	li {
+		list-style: none;		
+	}
+	.comment-author {
+		img {
+			border-radius: 50%;
+		}
+		a {
+			font-style: italic;
+			padding: 5px;
+		}		
+	}	
+	.comment-post {
+		a {
+		 	font-weight: bold;
+		 	color: black;		 	
+		 	padding: 5px;
+		}
+		&:before {
+	 		content: "\f105" ;
+	 		font-family: fontawesome;
+		}
+	}
+}

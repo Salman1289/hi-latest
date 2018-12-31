@@ -1,0 +1,14 @@
+.counter-box {
+  text-align: center;
+  color: #fff;
+  .display-percentage {
+    display: block;
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: bold;
+  }
+  .counter-box-content {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}

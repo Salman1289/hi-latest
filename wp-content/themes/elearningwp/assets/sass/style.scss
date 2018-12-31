@@ -1,0 +1,76 @@
+/*!
+Theme Name: eLearningWP
+Theme URI: http://elearningwp.thimpress.com/
+Author: ThimPress
+Author URI: http://thimpress.com
+Description: A education WordPress theme.
+Version: 4.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: elearningwp
+Domain Path: /languages/
+*/
+// Import
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "awesome/font-awesome";
+@import "ionicons/ionicons";
+@import "fonts/fonts";
+@import "owlcarousel/owl.carousel";
+@import "magnific-popup/main";
+@import "mixins/mixins";
+@import "mixins/woo";
+@import "theme/reset-style";
+@import "theme/theme";
+@import "theme/category";
+@import "theme/form";
+@import "theme/footer";
+@import "theme/popup-login";
+@import "theme/search";
+@import "theme/single";
+@import "theme/_404";
+@import "theme/_animate";
+@import "mixins/mixins";
+@import "header/header";
+@import "header/main-menu";
+@import "widgets/counter-box";
+@import "widgets/courses";
+@import "widgets/courses-search";
+@import "widgets/instructors-month";
+@import "widgets/testimonials";
+@import "widgets/tweets";
+@import "widgets/slider";
+@import "widgets/widget-button";
+@import "widgets/widget-collapse";
+@import "widgets/widget-gallery-images";
+@import "widgets/widget-google-map";
+@import "widgets/widget-iconbox";
+@import "widgets/widget-our-team";
+@import "widgets/widget-popular-courses";
+@import "widgets/widget-post-display";
+@import "widgets/widget-recent-comment";
+@import "widgets/widget-single-image";
+@import "widgets/widget-social";
+@import "widgets/widget-tab";
+@import "widgets/widget-course-banner";
+@import "widgets/widgets";
+@import "woo/woo-cart";
+@import "woo/woo-category";
+@import "woo/woo-checkout";
+@import "woo/woo-countdown";
+@import "woo/woo-login";
+@import "woo/woo-quickview";
+@import "woo/woo-single";
+@import "woo/woo-widget";
+@import "woo/woo-wishlist";
+@import "woo/woocommerce";
+@import "learnpress/learnpress";
+@import "extend/bbpress-forum";
+@import "extend/buddypress";
+@import "extend/chosen";
+@import "theme/responsive";
+@import "theme/preloading/spinkit";
+@import "responsive/responsive";
+@import "page-title/page-title";
+@import "blog/blog";

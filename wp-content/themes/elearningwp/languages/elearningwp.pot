@@ -1,0 +1,4366 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: elearningwp\n"
+"POT-Creation-Date: 2018-03-29 17:03+0700\n"
+"PO-Revision-Date: 2017-04-27 11:45-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "Page Not Found!"
+msgstr ""
+
+#: 404.php:13
+msgid "Sorry, We couldn't find the page you're looking for."
+msgstr ""
+
+#: 404.php:14
+msgid "Try returning to the "
+msgstr ""
+
+#: 404.php:15
+msgid "Homepage"
+msgstr ""
+
+#: bbpress/form-search.php:14
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-search.php:18
+msgid "Search"
+msgstr ""
+
+#: comments.php:27
+msgid "Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:44
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:45
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:51
+msgid "No comments yet! You be the first to comment."
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:60 inc/widgets/post-display/post-display.php:155
+#: learnpress-v3/learnpress-functions.php:506
+#: learnpress/learnpress-functions.php:545
+msgid "Comment"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:53
+msgid "Copyright Menu"
+msgstr ""
+
+#: functions.php:60
+msgid "Primary Menu Right"
+msgstr ""
+
+#: functions.php:115
+msgid "Sidebar 1"
+msgstr ""
+
+#: functions.php:126
+msgid "Drawer Top"
+msgstr ""
+
+#: functions.php:135
+msgid "Search Sidebar"
+msgstr ""
+
+#: functions.php:142
+msgid "Offcanvas"
+msgstr ""
+
+#: functions.php:154
+msgid "Menu Right"
+msgstr ""
+
+#: functions.php:163
+msgid "Footer Sidebar"
+msgstr ""
+
+#: functions.php:173 inc/admin/customizer-sections/footer-copyright.php:3
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:180
+msgid "Sidebar Shop"
+msgstr ""
+
+#: functions.php:192
+msgid "Top Sidebar Courses"
+msgstr ""
+
+#: functions.php:202
+msgid "Sidebar Courses"
+msgstr ""
+
+#: inc/admin/customizer-options.php:35
+#: inc/admin/customizer-sections/general_logo.php:10
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/custom-css.php:26
+msgid "Additional CSS"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:6
+msgid "Archive"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:13
+msgid "Front Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:26
+#: inc/admin/customizer-sections/display-postpage.php:26
+#: inc/admin/customizer-sections/forum-archive.php:34
+#: inc/admin/customizer-sections/forum-topic.php:34
+#: inc/admin/customizer-sections/learnpress-archive.php:23
+#: inc/admin/customizer-sections/learnpress-single.php:23
+#: inc/admin/customizer-sections/woocommerce-archive.php:23
+#: inc/admin/customizer-sections/woocommerce-single.php:24
+msgid "Hide Breadcrumbs?"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:33
+#: inc/admin/customizer-sections/display-archive.php:46
+#: inc/admin/customizer-sections/display-archive.php:113
+#: inc/admin/customizer-sections/display-archive.php:126
+#: inc/admin/customizer-sections/display-archive.php:139
+#: inc/admin/customizer-sections/display-archive.php:152
+#: inc/admin/customizer-sections/display-postpage.php:33
+#: inc/admin/customizer-sections/display-postpage.php:46
+#: inc/admin/customizer-sections/footer-copyright.php:59
+#: inc/admin/customizer-sections/forum-archive.php:40
+#: inc/admin/customizer-sections/forum-archive.php:57
+#: inc/admin/customizer-sections/forum-topic.php:40
+#: inc/admin/customizer-sections/forum-topic.php:57
+#: inc/admin/customizer-sections/header-stickymenu.php:19
+#: inc/admin/customizer-sections/learnpress-archive.php:30
+#: inc/admin/customizer-sections/learnpress-archive.php:43
+#: inc/admin/customizer-sections/learnpress-features.php:17
+#: inc/admin/customizer-sections/learnpress-single.php:30
+#: inc/admin/customizer-sections/learnpress-single.php:43
+#: inc/admin/customizer-sections/styling-pattern.php:19
+#: inc/admin/customizer-sections/styling-rtl.php:17
+#: inc/admin/customizer-sections/styling-rtl.php:29
+#: inc/admin/customizer-sections/woocommerce-archive.php:30
+#: inc/admin/customizer-sections/woocommerce-archive.php:43
+#: inc/admin/customizer-sections/woocommerce-setting.php:49
+#: inc/admin/customizer-sections/woocommerce-setting.php:62
+#: inc/admin/customizer-sections/woocommerce-setting.php:74
+#: inc/admin/customizer-sections/woocommerce-sharing.php:18
+#: inc/admin/customizer-sections/woocommerce-sharing.php:31
+#: inc/admin/customizer-sections/woocommerce-sharing.php:45
+#: inc/admin/customizer-sections/woocommerce-sharing.php:58
+#: inc/admin/customizer-sections/woocommerce-single.php:31
+#: inc/admin/customizer-sections/woocommerce-single.php:44
+msgid "On"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:34
+#: inc/admin/customizer-sections/display-archive.php:47
+#: inc/admin/customizer-sections/display-archive.php:114
+#: inc/admin/customizer-sections/display-archive.php:127
+#: inc/admin/customizer-sections/display-archive.php:140
+#: inc/admin/customizer-sections/display-archive.php:153
+#: inc/admin/customizer-sections/display-postpage.php:34
+#: inc/admin/customizer-sections/display-postpage.php:47
+#: inc/admin/customizer-sections/footer-copyright.php:60
+#: inc/admin/customizer-sections/forum-archive.php:41
+#: inc/admin/customizer-sections/forum-archive.php:58
+#: inc/admin/customizer-sections/forum-topic.php:41
+#: inc/admin/customizer-sections/forum-topic.php:58
+#: inc/admin/customizer-sections/header-stickymenu.php:20
+#: inc/admin/customizer-sections/learnpress-archive.php:31
+#: inc/admin/customizer-sections/learnpress-archive.php:44
+#: inc/admin/customizer-sections/learnpress-features.php:18
+#: inc/admin/customizer-sections/learnpress-single.php:31
+#: inc/admin/customizer-sections/learnpress-single.php:44
+#: inc/admin/customizer-sections/styling-pattern.php:20
+#: inc/admin/customizer-sections/styling-rtl.php:18
+#: inc/admin/customizer-sections/styling-rtl.php:30
+#: inc/admin/customizer-sections/woocommerce-archive.php:31
+#: inc/admin/customizer-sections/woocommerce-archive.php:44
+#: inc/admin/customizer-sections/woocommerce-setting.php:50
+#: inc/admin/customizer-sections/woocommerce-setting.php:63
+#: inc/admin/customizer-sections/woocommerce-setting.php:75
+#: inc/admin/customizer-sections/woocommerce-sharing.php:19
+#: inc/admin/customizer-sections/woocommerce-sharing.php:32
+#: inc/admin/customizer-sections/woocommerce-sharing.php:46
+#: inc/admin/customizer-sections/woocommerce-sharing.php:59
+#: inc/admin/customizer-sections/woocommerce-single.php:32
+#: inc/admin/customizer-sections/woocommerce-single.php:45
+msgid "Off"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:39
+#: inc/admin/customizer-sections/display-postpage.php:39
+#: inc/admin/customizer-sections/forum-archive.php:51
+#: inc/admin/customizer-sections/forum-topic.php:51
+#: inc/admin/customizer-sections/learnpress-archive.php:36
+#: inc/admin/customizer-sections/learnpress-single.php:36
+#: inc/admin/customizer-sections/woocommerce-archive.php:36
+#: inc/admin/customizer-sections/woocommerce-single.php:37
+msgid "Hide Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:52
+#: inc/admin/customizer-sections/display-postpage.php:52
+#: inc/admin/customizer-sections/forum-archive.php:76
+#: inc/admin/customizer-sections/forum-topic.php:67
+#: inc/admin/customizer-sections/learnpress-archive.php:61
+#: inc/admin/customizer-sections/learnpress-single.php:49
+#: inc/admin/customizer-sections/woocommerce-archive.php:49
+#: inc/admin/customizer-sections/woocommerce-single.php:50
+msgid "Background Heading Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:62
+#: inc/admin/customizer-sections/display-postpage.php:62
+#: inc/admin/customizer-sections/forum-archive.php:89
+#: inc/admin/customizer-sections/forum-topic.php:80
+#: inc/admin/customizer-sections/learnpress-archive.php:71
+#: inc/admin/customizer-sections/learnpress-single.php:59
+#: inc/admin/customizer-sections/woocommerce-archive.php:59
+#: inc/admin/customizer-sections/woocommerce-single.php:60
+msgid "Background Heading Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:70
+#: inc/admin/customizer-sections/display-postpage.php:71
+#: inc/admin/customizer-sections/learnpress-archive.php:79
+#: inc/admin/customizer-sections/learnpress-single.php:67
+#: inc/admin/customizer-sections/woocommerce-archive.php:67
+#: inc/admin/customizer-sections/woocommerce-single.php:68
+msgid "Color Heading"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:78
+#: inc/admin/customizer-sections/display-postpage.php:79
+#: inc/admin/customizer-sections/learnpress-archive.php:87
+#: inc/admin/customizer-sections/learnpress-single.php:75
+#: inc/admin/customizer-sections/woocommerce-archive.php:75
+#: inc/admin/customizer-sections/woocommerce-single.php:75
+msgid "Color Sub Heading"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:94
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:98
+msgid ""
+"Enter the number of words you want to cut from the content to be the excerpt "
+"of search and archive and portfolio page."
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:106
+msgid "Show Author"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:119
+msgid "Show Date"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:132
+msgid "Show Comment"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-archive.php:145
+msgid "Show Categories"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-postpage.php:6
+msgid "Post & Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-postpage.php:13
+msgid "Single Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-postpage.php:66
+#: inc/admin/customizer-sections/forum-archive.php:90
+#: inc/admin/customizer-sections/forum-topic.php:81
+msgid ""
+"If you do not use background image, then can use background color for page "
+"title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/display-sharing.php:4
+#: inc/admin/customizer-sections/woocommerce-sharing.php:3
+msgid "Sharing"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-sharing.php:7
+msgid "Show social sharing button."
+msgstr ""
+
+#: inc/admin/customizer-sections/display-sharing.php:12
+#: inc/admin/customizer-sections/woocommerce-sharing.php:11
+#: inc/custom-functions.php:1229 inc/custom-functions.php:1344
+#: inc/custom-functions.php:1391
+#: learnpress/profile/tabs/edit/basic-information.php:71
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-sharing.php:20
+#: inc/admin/customizer-sections/woocommerce-sharing.php:24
+#: inc/custom-functions.php:1243 inc/custom-functions.php:1348
+#: inc/custom-functions.php:1399
+#: learnpress/profile/tabs/edit/basic-information.php:77
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-sharing.php:28
+#: inc/admin/customizer-sections/woocommerce-sharing.php:38
+#: inc/custom-functions.php:1395
+#: learnpress/profile/tabs/edit/basic-information.php:83
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/customizer-sections/display-sharing.php:36
+#: inc/admin/customizer-sections/woocommerce-sharing.php:51
+#: inc/custom-functions.php:1250 inc/custom-functions.php:1355
+#: inc/custom-functions.php:1404
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/customizer-sections/display.php:4
+msgid "Display"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:10
+#: inc/admin/customizer-sections/footer-options.php:42
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:27
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:45
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:55
+msgid "Back To Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:5
+#: inc/widgets/google-map/google-map.php:33
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:11
+#: inc/admin/customizer-sections/header-mainmenu.php:54
+msgid "Select a Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:25
+msgid "Footer Title Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:35
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:63
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:68
+msgid "Background Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer.php:3
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:7
+#: inc/admin/customizer-sections/forum.php:7
+#: learnpress/addons/bbpress/forum-link.php:4
+msgid "Forum"
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:16
+#: inc/admin/customizer-sections/forum-topic.php:16
+#: inc/admin/customizer-sections/learnpress-archive.php:10
+#: inc/admin/customizer-sections/learnpress-single.php:10
+#: inc/admin/customizer-sections/styling-layout.php:3
+#: inc/widgets/button/button.php:61
+#: inc/widgets/course-categories/course-categories.php:28
+#: inc/widgets/courses-searching/courses-searching.php:31
+#: inc/widgets/our-team/our-team.php:30
+#: inc/widgets/post-display/post-display.php:128
+#: inc/widgets/testimonials/testimonials.php:140
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:17
+#: inc/admin/customizer-sections/forum-topic.php:17
+msgid "Allows you to choose a layout for all forum archive pages."
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:35
+#: inc/admin/customizer-sections/forum-topic.php:35
+msgid "Check this box to hide/show breadcrumbs."
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:52
+#: inc/admin/customizer-sections/forum-topic.php:52
+msgid "Check this box to hide/show title."
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:64
+#: inc/admin/customizer-sections/learnpress-archive.php:95
+#: inc/admin/customizer-sections/learnpress-single.php:83
+msgid "Sub Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:110
+#: inc/admin/customizer-sections/forum-topic.php:101
+#: inc/widgets/post-display/post-display.php:116
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:111
+msgid "Title Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:111
+#: inc/admin/customizer-sections/forum-topic.php:102
+msgid "Allows you can select a color make text color for title."
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:131
+#: inc/admin/customizer-sections/forum-topic.php:122
+msgid "Sub Title Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-archive.php:132
+#: inc/admin/customizer-sections/forum-topic.php:123
+msgid "Allows you can select a color make sub title color page title."
+msgstr ""
+
+#: inc/admin/customizer-sections/forum-topic.php:7
+msgid "Topic"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:12
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:25
+msgid "Body"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:29
+msgid "Body Font"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:30
+msgid "Allows you to select all font properties of body tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:93
+msgid "Headings"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:97
+msgid "Heading Font-Family"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:98
+msgid "Allows you to select font-family for headings (h1, h2, h3, h4, h5, h6)"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:134
+msgid "Heading 1"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:135
+msgid "Allows you to select all font properties of H1 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:165
+msgid "Heading 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:166
+msgid "Allows you to select all font properties of H2 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:196
+msgid "Heading 3"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:197
+msgid "Allows you to select all font properties of H3 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:227
+msgid "Heading 4"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:228
+msgid "Allows you to select all font properties of H4 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:258
+msgid "Heading 5"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:259
+msgid "Allows you to select all font properties of H5 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:289
+msgid "Heading 6"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:290
+msgid "Allows you to select all font properties of H6 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-utilities.php:10
+msgid "Utilities"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-utilities.php:21
+msgid "Login Redirect"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-utilities.php:22
+msgid "Allows login redirect url. Blank will redirect to home page."
+msgstr ""
+
+#: inc/admin/customizer-sections/general.php:12
+msgid "General"
+msgstr ""
+
+#: inc/admin/customizer-sections/general_logo.php:20
+msgid "Upload your logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general_logo.php:32
+msgid "Upload your sticky logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general_logo.php:42
+msgid "Width Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:47
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:69
+msgid "Header Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:74
+#: inc/widgets/course-banner/course-banner.php:56
+#: inc/widgets/courses/courses.php:58
+#: inc/widgets/gallery-images/gallery-images.php:51
+#: inc/widgets/heading/heading.php:45 inc/widgets/icon-box/icon-box.php:49
+#: inc/widgets/instructor-of-month/instructor-of-month.php:58
+#: inc/widgets/post-display/post-display.php:51
+#: inc/widgets/post-display/post-display.php:130
+#: inc/widgets/testimonials/testimonials.php:50
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:51
+#: inc/widgets/top-instructors/top-instructors.php:58
+msgid "Default"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:75
+msgid "Overlay"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:81
+#: inc/admin/customizer-sections/header-submenu.php:17
+#: inc/admin/customizer-sections/styling-rtl.php:66
+msgid "Background color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:82
+#: inc/admin/customizer-sections/header-stickymenu.php:41
+msgid "Pick a background color for main menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:99
+#: inc/admin/customizer-sections/header-stickymenu.php:67
+#: inc/admin/customizer-sections/header-submenu.php:37
+msgid "Text color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:100
+#: inc/admin/customizer-sections/header-stickymenu.php:68
+msgid "Pick a text color for main menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:117
+#: inc/admin/customizer-sections/header-stickymenu.php:95
+msgid "Text Hover color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:118
+#: inc/admin/customizer-sections/header-stickymenu.php:96
+msgid "Pick a text hover color for main menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:135
+#: inc/widgets/course-banner/course-banner.php:78
+#: inc/widgets/courses/courses.php:80 inc/widgets/courses/courses.php:128
+#: inc/widgets/heading/heading.php:65 inc/widgets/icon-box/icon-box.php:69
+#: inc/widgets/instructor-of-month/instructor-of-month.php:80
+#: inc/widgets/instructor-of-month/instructor-of-month.php:128
+#: inc/widgets/post-display/post-display.php:73
+#: inc/widgets/testimonials/testimonials.php:72
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:73
+#: inc/widgets/top-instructors/top-instructors.php:80
+#: inc/widgets/top-instructors/top-instructors.php:128
+msgid "Font Size"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mainmenu.php:145
+msgid "Font Weight"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-stickymenu.php:5
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-stickymenu.php:14
+msgid "Sticky Menu on scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-stickymenu.php:15
+msgid "Check to enable a fixed header when scrolling, uncheck to disable."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-stickymenu.php:25
+msgid "Config Sticky Menu?"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-stickymenu.php:40
+msgid "Sticky Background color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-submenu.php:7
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-submenu.php:18
+msgid "Pick a background color for sub menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-submenu.php:38
+msgid "Pick a text color for sub menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-submenu.php:57
+msgid "Text color hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-submenu.php:58
+msgid "Pick a text color hover for sub menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header.php:6
+msgid "Header"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:3
+msgid "LearnPress Archive"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:49
+msgid "Heading Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:103
+msgid "Grid Column"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:108
+#: inc/widgets/courses/courses.php:219 inc/widgets/courses/courses.php:296
+#: inc/widgets/our-team/our-team.php:39
+#: inc/widgets/post-display/post-display.php:144
+#: inc/widgets/top-instructors/top-instructors.php:159
+msgid "2"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:109
+#: inc/widgets/courses/courses.php:220 inc/widgets/our-team/our-team.php:40
+#: inc/widgets/top-instructors/top-instructors.php:160
+msgid "3"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:110
+#: inc/widgets/courses/courses.php:221 inc/widgets/our-team/our-team.php:41
+#: inc/widgets/post-display/post-display.php:137
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:125
+#: inc/widgets/top-instructors/top-instructors.php:161
+#: inc/widgets/tweets-feed/tweets-feed.php:49
+msgid "4"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-features.php:3
+msgid "LearnPress Features"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-features.php:10
+msgid "Hidden Ads"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-single.php:3
+msgid "LearnPress Single"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress.php:4
+msgid "LearnPress"
+msgstr ""
+
+#: inc/admin/customizer-sections/nav-menus.php:7
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-color.php:3
+msgid "Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-color.php:11
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-color.php:29
+msgid "Theme Primary Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-color.php:48
+msgid "Upload Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-layout.php:9
+msgid "Body layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-pattern.php:4
+msgid "Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-pattern.php:12
+msgid "Background Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-pattern.php:15
+msgid ""
+"Check the box to display a pattern in the background. If checked, select the "
+"pattern from below."
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-pattern.php:25
+msgid "Select a Background Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-rtl.php:4
+msgid "Support"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-rtl.php:11
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-rtl.php:23
+msgid "Preload"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-rtl.php:39
+msgid "Preloading"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-rtl.php:62
+msgid "Preloading Style"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling-rtl.php:67
+msgid "Icon color"
+msgstr ""
+
+#: inc/admin/customizer-sections/styling.php:7
+msgid "Styling"
+msgstr ""
+
+#: inc/admin/customizer-sections/widgets.php:7
+msgid "Widgets"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-archive.php:3
+msgid "Category Products"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-archive.php:10
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-archive.php:84
+#: inc/admin/customizer-sections/woocommerce-single.php:83
+msgid "sub Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-single.php:3
+msgid "Product Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-single.php:11
+msgid "Select Layout Default"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce.php:4
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:66
+#: inc/admin/installer/installer.php:734
+msgid "Something went wrong!"
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:386
+#: inc/libs/class-thim-plugin.php:385
+msgid "Active"
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:387
+#: inc/libs/class-thim-plugin.php:386
+msgid "Inactive"
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:388
+#: inc/libs/class-thim-plugin.php:387
+msgid "Not Installed"
+msgstr ""
+
+#: inc/admin/installer/installer.php:367
+#, php-format
+msgid "%s Theme notice!"
+msgstr ""
+
+#: inc/admin/installer/installer.php:369
+#, php-format
+msgid ""
+"Installed the theme successfully. <a href=\"%s\">Enable Thim Core to start "
+"now!</a>"
+msgstr ""
+
+#: inc/admin/installer/installer.php:448 inc/admin/installer/installer.php:621
+msgid "Thim Core Installer"
+msgstr ""
+
+#: inc/admin/installer/installer.php:623
+#, php-format
+msgid "Please follow the instructions below. Thanks for choosing %s theme!"
+msgstr ""
+
+#: inc/admin/installer/installer.php:638
+msgid "Your site have already installed Thim Core!"
+msgstr ""
+
+#: inc/admin/installer/installer.php:640
+#, php-format
+msgid ""
+"<button data-href=\"%s\" class=\"thim-button-link button button-primary"
+"\">Return to Dashboard</button>"
+msgstr ""
+
+#: inc/admin/installer/installer.php:662
+msgid "Install and activate"
+msgstr ""
+
+#: inc/admin/installer/installer.php:686
+msgid "Installing Thim Core"
+msgstr ""
+
+#: inc/admin/installer/installer.php:694
+msgid "Activating Thim Core"
+msgstr ""
+
+#: inc/admin/installer/installer.php:696
+msgid "Activating..."
+msgstr ""
+
+#: inc/admin/installer/installer.php:718
+msgid "Activating Thim Core successfully!"
+msgstr ""
+
+#: inc/admin/installer/installer.php:720
+#, php-format
+msgid "You are redirecting to %s theme dashboard..."
+msgstr ""
+
+#: inc/admin/installer/installer.php:732
+msgid "Activating Thim Core failed!"
+msgstr ""
+
+#: inc/admin/installer/installer.php:736
+msgid "Activate again"
+msgstr ""
+
+#: inc/admin/installer/installer.php:766
+msgid "Configuration Check"
+msgstr ""
+
+#: inc/admin/installer/installer.php:772
+msgid "Server Info"
+msgstr ""
+
+#: inc/admin/installer/installer.php:777
+msgid "PHP Version"
+msgstr ""
+
+#: inc/admin/installer/installer.php:782
+#, php-format
+msgid "%1$s - We recommend a minimum PHP version of 5.6. See: %2$s"
+msgstr ""
+
+#: inc/admin/installer/installer.php:782
+msgid "How to update your PHP version"
+msgstr ""
+
+#: inc/admin/installer/installer.php:791
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: inc/admin/installer/installer.php:795
+#, php-format
+msgid ""
+"<strong>%s</strong> - We recommend setting memory to at least <strong>128MB</"
+"strong>. To learn how, see: <a href=\"%s\" target=\"_blank\">Increasing "
+"memory allocated to PHP.</a>"
+msgstr ""
+
+#: inc/admin/installer/installer.php:804
+msgid "cURL version"
+msgstr ""
+
+#: inc/admin/installer/installer.php:809
+msgid "Remote GET"
+msgstr ""
+
+#: inc/admin/installer/installer.php:814
+msgid "wp_remote_get() failed. Please contact your hosting provider."
+msgstr ""
+
+#: inc/admin/installer/installer.php:820
+msgid "Plugins directory"
+msgstr ""
+
+#: inc/admin/installer/installer.php:828
+msgid "Plugins directory writable"
+msgstr ""
+
+#: inc/admin/installer/installer.php:841
+#, php-format
+msgid ""
+"Please follow those instructions above to make sure your server is ready to "
+"use %s theme. If you need assistance, please get our support <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: inc/admin/installer/installer.php:861
+#, php-format
+msgid "Thim Core Installer &lsaquo; %s"
+msgstr ""
+
+#: inc/admin/installer/installer.php:881
+msgid "&copy; ThimPress 2017. All rights reserved. Powered by WordPress."
+msgstr ""
+
+#: inc/custom-functions.php:101
+msgid "Thim Widget"
+msgstr ""
+
+#: inc/custom-functions.php:443 inc/custom-functions.php:504
+#: inc/custom-functions.php:506 inc/custom-functions.php:508
+#: inc/custom-functions.php:512 inc/custom-functions.php:513
+#: inc/custom-functions.php:572
+msgid "Archives"
+msgstr ""
+
+#: inc/custom-functions.php:445
+msgid "Author"
+msgstr ""
+
+#: inc/custom-functions.php:447
+msgid "Page"
+msgstr ""
+
+#: inc/custom-functions.php:449 learnpress-v3/learnpress-functions.php:69
+#: learnpress/learnpress-functions.php:70
+msgid "Search results for:"
+msgstr ""
+
+#: inc/custom-functions.php:451
+msgid "404 Page"
+msgstr ""
+
+#: inc/custom-functions.php:484 learnpress-v3/learnpress-functions.php:39
+#: learnpress/learnpress-functions.php:40
+msgid "Home"
+msgstr ""
+
+#: inc/custom-functions.php:532 inc/custom-functions.php:534
+#: inc/custom-functions.php:536 inc/custom-functions.php:562
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/custom-functions.php:538
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/custom-functions.php:538
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/custom-functions.php:540
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/custom-functions.php:540
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/custom-functions.php:542
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/custom-functions.php:542
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/custom-functions.php:544
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/custom-functions.php:546
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/custom-functions.php:548
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/custom-functions.php:550
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/custom-functions.php:552
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/custom-functions.php:554
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/custom-functions.php:556
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/custom-functions.php:558
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/custom-functions.php:560
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/custom-functions.php:566
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/custom-functions.php:568
+msgid "404"
+msgstr ""
+
+#: inc/custom-functions.php:570
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/custom-functions.php:876
+msgid " at "
+msgstr ""
+
+#: inc/custom-functions.php:885 inc/custom-functions.php:1083
+msgid "Edit"
+msgstr ""
+
+#: inc/custom-functions.php:889
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/custom-functions.php:933
+msgid "By "
+msgstr ""
+
+#: inc/custom-functions.php:979
+msgid "in"
+msgstr ""
+
+#: inc/custom-functions.php:1003
+msgid ", "
+msgstr ""
+
+#: inc/custom-functions.php:1005
+#, php-format
+msgid "Tag: %1$s"
+msgstr ""
+
+#: inc/custom-functions.php:1075
+msgid "(Edit)"
+msgstr ""
+
+#: inc/custom-functions.php:1079
+#, php-format
+msgid "Topic Tag: %s"
+msgstr ""
+
+#: inc/custom-functions.php:1223
+msgid "Testimonials Socials"
+msgstr ""
+
+#: inc/custom-functions.php:1236 inc/custom-functions.php:1364
+msgid "Google"
+msgstr ""
+
+#: inc/custom-functions.php:1273
+msgid "Edit Post"
+msgstr ""
+
+#: inc/custom-functions.php:1281
+msgid "Edit Page"
+msgstr ""
+
+#: inc/custom-functions.php:1359
+#: learnpress/profile/tabs/edit/basic-information.php:89
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/custom-functions.php:1436
+msgid "This post doesn't have config video, please add the video!"
+msgstr ""
+
+#: inc/custom-functions.php:1465 inc/custom-functions.php:1467
+msgid "This post doesn't have any gallery images, please add some!"
+msgstr ""
+
+#: inc/data/demos.php:5
+msgid "Demo 01"
+msgstr ""
+
+#: inc/data/demos.php:33
+msgid "Demo 02"
+msgstr ""
+
+#: inc/data/demos.php:61
+msgid "Demo 03"
+msgstr ""
+
+#: inc/data/demos.php:89
+msgid "Demo 04"
+msgstr ""
+
+#: inc/libs/Tax-meta-class/Tax-meta-class.php:379
+#: inc/libs/Tax-meta-class/Tax-meta-class.php:426
+msgid "Remove"
+msgstr ""
+
+#: inc/libs/Tax-meta-class/Tax-meta-class.php:392
+msgid "Add"
+msgstr ""
+
+#: inc/libs/Tax-meta-class/Tax-meta-class.php:737
+msgid "Remove Image"
+msgstr ""
+
+#: inc/libs/Tax-meta-class/Tax-meta-class.php:739
+msgid "Upload Image"
+msgstr ""
+
+#: inc/tax-meta.php:15
+msgid "Category Meta Box"
+msgstr ""
+
+#: inc/tax-meta.php:45 inc/tax-meta.php:52
+msgid "Using in Theme Option"
+msgstr ""
+
+#: inc/tax-meta.php:46
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/tax-meta.php:47
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/tax-meta.php:48
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/tax-meta.php:49
+msgid "Custom Layout "
+msgstr ""
+
+#: inc/tax-meta.php:53 inc/widgets/course-banner/course-banner.php:57
+#: inc/widgets/courses/courses.php:59 inc/widgets/heading/heading.php:46
+#: inc/widgets/icon-box/icon-box.php:50
+#: inc/widgets/instructor-of-month/instructor-of-month.php:59
+#: inc/widgets/post-display/post-display.php:52
+#: inc/widgets/testimonials/testimonials.php:51
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:52
+#: inc/widgets/top-instructors/top-instructors.php:59
+msgid "Custom"
+msgstr ""
+
+#: inc/tax-meta.php:54
+msgid "Custom Heading "
+msgstr ""
+
+#: inc/widgets/buddypress/buddypress.php:15
+msgid "Thim: BuddyPress"
+msgstr ""
+
+#: inc/widgets/buddypress/buddypress.php:17
+msgid "Show BuddyPress navigation menu."
+msgstr ""
+
+#: inc/widgets/buddypress/buddypress.php:24
+msgid "Label"
+msgstr ""
+
+#: inc/widgets/buddypress/buddypress.php:25
+msgid "BuddyPress"
+msgstr ""
+
+#: inc/widgets/button/button.php:11
+msgid "Thim: Button"
+msgstr ""
+
+#: inc/widgets/button/button.php:13
+msgid "Add Button"
+msgstr ""
+
+#: inc/widgets/button/button.php:23
+msgid "Button Text"
+msgstr ""
+
+#: inc/widgets/button/button.php:28
+msgid "Destination URL"
+msgstr ""
+
+#: inc/widgets/button/button.php:33
+msgid "Open in New Window"
+msgstr ""
+
+#: inc/widgets/button/button.php:37
+#: inc/widgets/counters-box/counters-box.php:31
+#: inc/widgets/course-banner/course-banner.php:120
+#: inc/widgets/slider/slider.php:38
+msgid "Icon"
+msgstr ""
+
+#: inc/widgets/button/button.php:43 inc/widgets/icon-box/icon-box.php:269
+#: inc/widgets/icon-box/icon-box.php:298
+msgid "Select Icon:"
+msgstr ""
+
+#: inc/widgets/button/button.php:44 inc/widgets/icon-box/icon-box.php:270
+#: inc/widgets/icon-box/icon-box.php:299
+msgid "Select the icon from the list."
+msgstr ""
+
+#: inc/widgets/button/button.php:51
+msgid "Icon Size "
+msgstr ""
+
+#: inc/widgets/button/button.php:54 inc/widgets/icon-box/icon-box.php:280
+#: inc/widgets/icon-box/icon-box.php:309
+msgid "Select the icon font size."
+msgstr ""
+
+#: inc/widgets/button/button.php:67
+msgid "Button Size"
+msgstr ""
+
+#: inc/widgets/button/button.php:77
+msgid "Rounding"
+msgstr ""
+
+#: inc/widgets/collapse/collapse.php:8
+msgid "Thim: Collapse"
+msgstr ""
+
+#: inc/widgets/collapse/collapse.php:10
+msgid "Add Collapse"
+msgstr ""
+
+#: inc/widgets/collapse/collapse.php:19 inc/widgets/collapse/collapse.php:20
+msgid "Collapse"
+msgstr ""
+
+#: inc/widgets/collapse/collapse.php:24
+msgid "Collapse Title"
+msgstr ""
+
+#: inc/widgets/collapse/collapse.php:29 inc/widgets/tab/tab.php:29
+msgid "Content"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:9
+msgid "Thim: Counters Box"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:11
+msgid "Counters Box"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:20
+msgid "Counters label"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:25
+msgid "Counters Value"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:35
+msgid "Border Color Icon"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:40
+msgid "Counters Box Icon"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:45
+msgid "Counter Style"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: inc/widgets/counters-box/counters-box.php:47
+msgid "Home Page"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:54
+#: inc/widgets/gallery-images/gallery-images.php:58
+#: inc/widgets/heading/heading.php:146 inc/widgets/icon-box/icon-box.php:428
+#: inc/widgets/our-team/our-team.php:46
+#: inc/widgets/post-display/post-display.php:169
+#: inc/widgets/single-images/single-images.php:97
+#: inc/widgets/testimonials/testimonials.php:152
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:129
+msgid "CSS Animation"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:56
+#: inc/widgets/courses/courses.php:286
+#: inc/widgets/gallery-images/gallery-images.php:60
+#: inc/widgets/heading/heading.php:148 inc/widgets/icon-box/icon-box.php:430
+#: inc/widgets/login-form/login-form.php:23
+#: inc/widgets/our-team/our-team.php:48
+#: inc/widgets/post-display/post-display.php:171
+#: inc/widgets/single-images/single-images.php:99
+#: inc/widgets/testimonials/testimonials.php:154
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:131
+msgid "No"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:57
+#: inc/widgets/gallery-images/gallery-images.php:61
+#: inc/widgets/heading/heading.php:149 inc/widgets/icon-box/icon-box.php:431
+#: inc/widgets/our-team/our-team.php:49
+#: inc/widgets/post-display/post-display.php:172
+#: inc/widgets/single-images/single-images.php:100
+#: inc/widgets/testimonials/testimonials.php:155
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:132
+msgid "Top to bottom"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:58
+#: inc/widgets/gallery-images/gallery-images.php:62
+#: inc/widgets/heading/heading.php:150 inc/widgets/icon-box/icon-box.php:432
+#: inc/widgets/our-team/our-team.php:50
+#: inc/widgets/post-display/post-display.php:173
+#: inc/widgets/single-images/single-images.php:101
+#: inc/widgets/testimonials/testimonials.php:156
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:133
+msgid "Bottom to top"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:59
+#: inc/widgets/gallery-images/gallery-images.php:63
+#: inc/widgets/heading/heading.php:151 inc/widgets/icon-box/icon-box.php:433
+#: inc/widgets/our-team/our-team.php:51
+#: inc/widgets/post-display/post-display.php:174
+#: inc/widgets/single-images/single-images.php:102
+#: inc/widgets/testimonials/testimonials.php:157
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:134
+msgid "Left to right"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:60
+#: inc/widgets/gallery-images/gallery-images.php:64
+#: inc/widgets/heading/heading.php:152 inc/widgets/icon-box/icon-box.php:434
+#: inc/widgets/our-team/our-team.php:52
+#: inc/widgets/post-display/post-display.php:175
+#: inc/widgets/single-images/single-images.php:103
+#: inc/widgets/testimonials/testimonials.php:158
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:135
+msgid "Right to left"
+msgstr ""
+
+#: inc/widgets/counters-box/counters-box.php:61
+#: inc/widgets/gallery-images/gallery-images.php:65
+#: inc/widgets/heading/heading.php:153 inc/widgets/icon-box/icon-box.php:435
+#: inc/widgets/our-team/our-team.php:53
+#: inc/widgets/post-display/post-display.php:176
+#: inc/widgets/single-images/single-images.php:104
+#: inc/widgets/testimonials/testimonials.php:159
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:136
+msgid "Appear from center"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:15
+msgid "Thim: Course Banner"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:17
+msgid "Show course banner"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:24
+#: inc/widgets/courses/courses.php:25
+#: inc/widgets/instructor-of-month/instructor-of-month.php:26
+#: inc/widgets/post-display/post-display.php:19
+#: inc/widgets/testimonials/testimonials.php:18
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:19
+#: inc/widgets/top-instructors/top-instructors.php:26
+msgid "Heading"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:29
+#: inc/widgets/courses/courses.php:30 inc/widgets/heading/heading.php:19
+#: inc/widgets/instructor-of-month/instructor-of-month.php:31
+#: inc/widgets/post-display/post-display.php:24
+#: inc/widgets/testimonials/testimonials.php:23
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:24
+#: inc/widgets/top-instructors/top-instructors.php:31
+#: inc/widgets/tweets-feed/tweets-feed.php:18
+msgid "Heading Text"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:30
+msgid "Popular Courses"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:35
+#: inc/widgets/courses/courses.php:36 inc/widgets/heading/heading.php:25
+#: inc/widgets/instructor-of-month/instructor-of-month.php:37
+#: inc/widgets/post-display/post-display.php:30
+#: inc/widgets/testimonials/testimonials.php:29
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:30
+#: inc/widgets/top-instructors/top-instructors.php:37
+msgid "Text Heading color"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:40
+#: inc/widgets/courses/courses.php:42 inc/widgets/heading/heading.php:30
+#: inc/widgets/icon-box/icon-box.php:34
+#: inc/widgets/instructor-of-month/instructor-of-month.php:42
+#: inc/widgets/post-display/post-display.php:35
+#: inc/widgets/testimonials/testimonials.php:34
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:35
+#: inc/widgets/top-instructors/top-instructors.php:42
+msgid "Size Heading"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:43
+#: inc/widgets/courses/courses.php:45 inc/widgets/heading/heading.php:32
+#: inc/widgets/icon-box/icon-box.php:37
+#: inc/widgets/instructor-of-month/instructor-of-month.php:45
+#: inc/widgets/post-display/post-display.php:38
+#: inc/widgets/testimonials/testimonials.php:37
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:38
+#: inc/widgets/top-instructors/top-instructors.php:45
+msgid "h2"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:44
+#: inc/widgets/courses/courses.php:46 inc/widgets/heading/heading.php:33
+#: inc/widgets/icon-box/icon-box.php:38
+#: inc/widgets/instructor-of-month/instructor-of-month.php:46
+#: inc/widgets/post-display/post-display.php:39
+#: inc/widgets/testimonials/testimonials.php:38
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:39
+#: inc/widgets/top-instructors/top-instructors.php:46
+msgid "h3"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:45
+#: inc/widgets/courses/courses.php:47 inc/widgets/heading/heading.php:34
+#: inc/widgets/icon-box/icon-box.php:39
+#: inc/widgets/instructor-of-month/instructor-of-month.php:47
+#: inc/widgets/post-display/post-display.php:40
+#: inc/widgets/testimonials/testimonials.php:39
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:40
+#: inc/widgets/top-instructors/top-instructors.php:47
+msgid "h4"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:46
+#: inc/widgets/courses/courses.php:48 inc/widgets/heading/heading.php:35
+#: inc/widgets/icon-box/icon-box.php:40
+#: inc/widgets/instructor-of-month/instructor-of-month.php:48
+#: inc/widgets/post-display/post-display.php:41
+#: inc/widgets/testimonials/testimonials.php:40
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:41
+#: inc/widgets/top-instructors/top-instructors.php:48
+msgid "h5"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:47
+#: inc/widgets/courses/courses.php:49 inc/widgets/heading/heading.php:36
+#: inc/widgets/icon-box/icon-box.php:41
+#: inc/widgets/instructor-of-month/instructor-of-month.php:49
+#: inc/widgets/post-display/post-display.php:42
+#: inc/widgets/testimonials/testimonials.php:41
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:42
+#: inc/widgets/top-instructors/top-instructors.php:49
+msgid "h6"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:53
+#: inc/widgets/courses/courses.php:55 inc/widgets/heading/heading.php:42
+#: inc/widgets/icon-box/icon-box.php:47
+#: inc/widgets/instructor-of-month/instructor-of-month.php:55
+#: inc/widgets/post-display/post-display.php:48
+#: inc/widgets/testimonials/testimonials.php:47
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:48
+#: inc/widgets/top-instructors/top-instructors.php:55
+msgid "Font Heading"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:59
+#: inc/widgets/courses/courses.php:61 inc/widgets/heading/heading.php:48
+#: inc/widgets/icon-box/icon-box.php:52
+#: inc/widgets/instructor-of-month/instructor-of-month.php:61
+#: inc/widgets/post-display/post-display.php:54
+#: inc/widgets/testimonials/testimonials.php:53
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:54
+#: inc/widgets/top-instructors/top-instructors.php:61
+msgid "Select Font heading."
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:68
+#: inc/widgets/courses/courses.php:70 inc/widgets/heading/heading.php:56
+#: inc/widgets/instructor-of-month/instructor-of-month.php:70
+#: inc/widgets/post-display/post-display.php:63
+#: inc/widgets/testimonials/testimonials.php:62
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:63
+#: inc/widgets/top-instructors/top-instructors.php:70
+msgid "Custom Font Heading"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:81
+#: inc/widgets/courses/courses.php:83 inc/widgets/courses/courses.php:131
+#: inc/widgets/heading/heading.php:68 inc/widgets/icon-box/icon-box.php:72
+#: inc/widgets/icon-box/icon-box.php:126
+#: inc/widgets/instructor-of-month/instructor-of-month.php:83
+#: inc/widgets/instructor-of-month/instructor-of-month.php:131
+#: inc/widgets/post-display/post-display.php:76
+#: inc/widgets/testimonials/testimonials.php:75
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:76
+#: inc/widgets/top-instructors/top-instructors.php:83
+#: inc/widgets/top-instructors/top-instructors.php:131
+msgid "custom font size"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:86
+#: inc/widgets/courses/courses.php:88 inc/widgets/courses/courses.php:136
+#: inc/widgets/heading/heading.php:73 inc/widgets/icon-box/icon-box.php:77
+#: inc/widgets/icon-box/icon-box.php:131
+#: inc/widgets/instructor-of-month/instructor-of-month.php:88
+#: inc/widgets/instructor-of-month/instructor-of-month.php:136
+#: inc/widgets/post-display/post-display.php:81
+#: inc/widgets/testimonials/testimonials.php:80
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:81
+#: inc/widgets/top-instructors/top-instructors.php:88
+#: inc/widgets/top-instructors/top-instructors.php:136
+msgid "Custom Font Weight"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:88
+#: inc/widgets/course-banner/course-banner.php:133
+#: inc/widgets/courses/courses.php:90 inc/widgets/courses/courses.php:138
+#: inc/widgets/heading/heading.php:75 inc/widgets/icon-box/icon-box.php:80
+#: inc/widgets/icon-box/icon-box.php:134
+#: inc/widgets/instructor-of-month/instructor-of-month.php:90
+#: inc/widgets/instructor-of-month/instructor-of-month.php:138
+#: inc/widgets/post-display/post-display.php:83
+#: inc/widgets/single-images/single-images.php:59
+#: inc/widgets/testimonials/testimonials.php:82
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:83
+#: inc/widgets/top-instructors/top-instructors.php:90
+#: inc/widgets/top-instructors/top-instructors.php:138
+msgid "Normal"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:89
+#: inc/widgets/courses/courses.php:91 inc/widgets/courses/courses.php:139
+#: inc/widgets/heading/heading.php:76 inc/widgets/icon-box/icon-box.php:81
+#: inc/widgets/icon-box/icon-box.php:135
+#: inc/widgets/instructor-of-month/instructor-of-month.php:91
+#: inc/widgets/instructor-of-month/instructor-of-month.php:139
+#: inc/widgets/post-display/post-display.php:84
+#: inc/widgets/testimonials/testimonials.php:83
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:84
+#: inc/widgets/top-instructors/top-instructors.php:91
+#: inc/widgets/top-instructors/top-instructors.php:139
+msgid "Bold"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:90
+#: inc/widgets/courses/courses.php:92 inc/widgets/courses/courses.php:140
+#: inc/widgets/heading/heading.php:77 inc/widgets/icon-box/icon-box.php:82
+#: inc/widgets/icon-box/icon-box.php:136
+#: inc/widgets/instructor-of-month/instructor-of-month.php:92
+#: inc/widgets/instructor-of-month/instructor-of-month.php:140
+#: inc/widgets/post-display/post-display.php:85
+#: inc/widgets/testimonials/testimonials.php:84
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:85
+#: inc/widgets/top-instructors/top-instructors.php:92
+#: inc/widgets/top-instructors/top-instructors.php:140
+msgid "100"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:91
+#: inc/widgets/courses/courses.php:93 inc/widgets/courses/courses.php:141
+#: inc/widgets/heading/heading.php:78 inc/widgets/icon-box/icon-box.php:83
+#: inc/widgets/icon-box/icon-box.php:137
+#: inc/widgets/instructor-of-month/instructor-of-month.php:93
+#: inc/widgets/instructor-of-month/instructor-of-month.php:141
+#: inc/widgets/post-display/post-display.php:86
+#: inc/widgets/testimonials/testimonials.php:85
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:86
+#: inc/widgets/top-instructors/top-instructors.php:93
+#: inc/widgets/top-instructors/top-instructors.php:141
+msgid "200"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:92
+#: inc/widgets/courses/courses.php:94 inc/widgets/courses/courses.php:142
+#: inc/widgets/heading/heading.php:79 inc/widgets/icon-box/icon-box.php:84
+#: inc/widgets/icon-box/icon-box.php:138
+#: inc/widgets/instructor-of-month/instructor-of-month.php:94
+#: inc/widgets/instructor-of-month/instructor-of-month.php:142
+#: inc/widgets/post-display/post-display.php:87
+#: inc/widgets/testimonials/testimonials.php:86
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:87
+#: inc/widgets/top-instructors/top-instructors.php:94
+#: inc/widgets/top-instructors/top-instructors.php:142
+msgid "300"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:93
+#: inc/widgets/courses/courses.php:95 inc/widgets/courses/courses.php:143
+#: inc/widgets/heading/heading.php:80 inc/widgets/icon-box/icon-box.php:85
+#: inc/widgets/icon-box/icon-box.php:139
+#: inc/widgets/instructor-of-month/instructor-of-month.php:95
+#: inc/widgets/instructor-of-month/instructor-of-month.php:143
+#: inc/widgets/post-display/post-display.php:88
+#: inc/widgets/testimonials/testimonials.php:87
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:88
+#: inc/widgets/top-instructors/top-instructors.php:95
+#: inc/widgets/top-instructors/top-instructors.php:143
+msgid "400"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:94
+#: inc/widgets/courses/courses.php:96 inc/widgets/courses/courses.php:144
+#: inc/widgets/heading/heading.php:81 inc/widgets/icon-box/icon-box.php:86
+#: inc/widgets/icon-box/icon-box.php:140
+#: inc/widgets/instructor-of-month/instructor-of-month.php:96
+#: inc/widgets/instructor-of-month/instructor-of-month.php:144
+#: inc/widgets/post-display/post-display.php:89
+#: inc/widgets/testimonials/testimonials.php:88
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:89
+#: inc/widgets/top-instructors/top-instructors.php:96
+#: inc/widgets/top-instructors/top-instructors.php:144
+msgid "500"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:95
+#: inc/widgets/courses/courses.php:97 inc/widgets/courses/courses.php:145
+#: inc/widgets/heading/heading.php:82 inc/widgets/icon-box/icon-box.php:87
+#: inc/widgets/icon-box/icon-box.php:141
+#: inc/widgets/instructor-of-month/instructor-of-month.php:97
+#: inc/widgets/instructor-of-month/instructor-of-month.php:145
+#: inc/widgets/post-display/post-display.php:90
+#: inc/widgets/testimonials/testimonials.php:89
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:90
+#: inc/widgets/top-instructors/top-instructors.php:97
+#: inc/widgets/top-instructors/top-instructors.php:145
+msgid "600"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:96
+#: inc/widgets/courses/courses.php:98 inc/widgets/courses/courses.php:146
+#: inc/widgets/heading/heading.php:83 inc/widgets/icon-box/icon-box.php:88
+#: inc/widgets/icon-box/icon-box.php:142
+#: inc/widgets/instructor-of-month/instructor-of-month.php:98
+#: inc/widgets/instructor-of-month/instructor-of-month.php:146
+#: inc/widgets/post-display/post-display.php:91
+#: inc/widgets/testimonials/testimonials.php:90
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:91
+#: inc/widgets/top-instructors/top-instructors.php:98
+#: inc/widgets/top-instructors/top-instructors.php:146
+msgid "700"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:97
+#: inc/widgets/courses/courses.php:99 inc/widgets/courses/courses.php:147
+#: inc/widgets/heading/heading.php:84 inc/widgets/icon-box/icon-box.php:89
+#: inc/widgets/icon-box/icon-box.php:143
+#: inc/widgets/instructor-of-month/instructor-of-month.php:99
+#: inc/widgets/instructor-of-month/instructor-of-month.php:147
+#: inc/widgets/post-display/post-display.php:92
+#: inc/widgets/testimonials/testimonials.php:91
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:92
+#: inc/widgets/top-instructors/top-instructors.php:99
+#: inc/widgets/top-instructors/top-instructors.php:147
+msgid "800"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:98
+#: inc/widgets/courses/courses.php:100 inc/widgets/courses/courses.php:148
+#: inc/widgets/heading/heading.php:85 inc/widgets/icon-box/icon-box.php:90
+#: inc/widgets/icon-box/icon-box.php:144
+#: inc/widgets/instructor-of-month/instructor-of-month.php:100
+#: inc/widgets/instructor-of-month/instructor-of-month.php:148
+#: inc/widgets/post-display/post-display.php:93
+#: inc/widgets/testimonials/testimonials.php:92
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:93
+#: inc/widgets/top-instructors/top-instructors.php:100
+#: inc/widgets/top-instructors/top-instructors.php:148
+msgid "900"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:100
+#: inc/widgets/courses/courses.php:102 inc/widgets/courses/courses.php:150
+#: inc/widgets/heading/heading.php:87 inc/widgets/icon-box/icon-box.php:92
+#: inc/widgets/icon-box/icon-box.php:146
+#: inc/widgets/instructor-of-month/instructor-of-month.php:102
+#: inc/widgets/instructor-of-month/instructor-of-month.php:150
+#: inc/widgets/post-display/post-display.php:95
+#: inc/widgets/testimonials/testimonials.php:94
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:95
+#: inc/widgets/top-instructors/top-instructors.php:102
+#: inc/widgets/top-instructors/top-instructors.php:150
+msgid "Select Custom Font Weight"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:109
+msgid "Banner Frames"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:110
+#: inc/widgets/slider/slider.php:19
+msgid "Frame"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:115
+#: inc/widgets/slider/slider.php:24
+msgid "Background Image"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:124
+#: inc/widgets/courses/courses.php:174
+#: inc/widgets/gallery-posts/gallery-posts.php:19
+#: inc/widgets/our-team/our-team.php:19
+msgid "Select Category"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:131
+msgid "Type Banner"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:134
+msgid "Horizontal"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:142
+#: inc/widgets/our-team/our-team.php:37
+msgid "Column"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:144
+msgid "1 Column"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:145
+msgid "2 Columns"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:146
+msgid "3 Columns"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:147
+msgid "4 Columns"
+msgstr ""
+
+#: inc/widgets/course-banner/course-banner.php:148
+msgid "6 Columns"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:15
+msgid "Thim: Course Categories"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:17
+msgid "Show course categories"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:24
+#: inc/widgets/google-map/google-map.php:17
+#: inc/widgets/icon-box/icon-box.php:23
+#: inc/widgets/post-display/post-display.php:154
+#: inc/widgets/single-images/single-images.php:60
+#: inc/widgets/social/social.php:20
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:30
+#: inc/widgets/gallery-images/gallery-images.php:52
+#: inc/widgets/post-display/post-display.php:131
+msgid "Slider"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:31
+msgid "List Categories"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:41
+msgid "Slider Layout Options"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:51
+msgid "Limit categories"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:56
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:61
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:66
+msgid "Items Visible"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:81
+msgid "Auto Play Speed (in ms)"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:82
+msgid "Set 0 to disable auto play."
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:91
+msgid "List Layout Options"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:101
+msgid "Show course count"
+msgstr ""
+
+#: inc/widgets/course-categories/course-categories.php:106
+msgid "Show hierarchy"
+msgstr ""
+
+#: inc/widgets/course-categories/tpl/carousel-v2.php:65
+msgid "Course"
+msgstr ""
+
+#: inc/widgets/courses-searching/courses-searching.php:15
+msgid "Thim: Courses Searching"
+msgstr ""
+
+#: inc/widgets/courses-searching/courses-searching.php:17
+msgid "Search courses"
+msgstr ""
+
+#: inc/widgets/courses-searching/courses-searching.php:26
+msgid "What do you want to learn today?"
+msgstr ""
+
+#: inc/widgets/courses-searching/courses-searching.php:27
+msgid "Searching Label"
+msgstr ""
+
+#: inc/widgets/courses-searching/courses-searching.php:33
+#: inc/widgets/courses/courses.php:189
+msgid "Layout 01"
+msgstr ""
+
+#: inc/widgets/courses-searching/courses-searching.php:34
+#: inc/widgets/courses/courses.php:190
+msgid "Layout 02"
+msgstr ""
+
+#: inc/widgets/courses-searching/courses-searching.php:35
+msgid "Layout Top"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:14
+msgid "Thim: Courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:16
+msgid "Display courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:31
+msgid "Latest Courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:111 inc/widgets/heading/heading.php:122
+#: inc/widgets/icon-box/icon-box.php:111
+#: inc/widgets/instructor-of-month/instructor-of-month.php:111
+#: inc/widgets/slider/slider.php:64
+#: inc/widgets/top-instructors/top-instructors.php:111
+msgid "Description"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:116 inc/widgets/heading/heading.php:127
+#: inc/widgets/instructor-of-month/instructor-of-month.php:116
+#: inc/widgets/top-instructors/top-instructors.php:116
+msgid "Descriptions"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:117 inc/widgets/heading/heading.php:128
+#: inc/widgets/instructor-of-month/instructor-of-month.php:117
+#: inc/widgets/top-instructors/top-instructors.php:117
+msgid "descriptions"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:122 inc/widgets/heading/heading.php:132
+#: inc/widgets/instructor-of-month/instructor-of-month.php:122
+#: inc/widgets/top-instructors/top-instructors.php:122
+msgid "Description color"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:165
+msgid "Kind Of Courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:167
+msgid "Latest courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:168
+msgid "Popular courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:169
+msgid "Commingsoon courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:187
+msgid "Widget Layout"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:191
+msgid "Layout Filter"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:192
+msgid "Layout Commingsoon Slider"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:193
+msgid "Layout Media Slider"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:194
+msgid "Layout Mega Menu"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:204
+#: inc/widgets/gallery-images/gallery-images.php:26
+#: inc/widgets/single-images/single-images.php:26
+msgid "Image size"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:205
+msgid ""
+"Other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" courses."
+msgstr ""
+
+#: inc/widgets/courses/courses.php:217
+#: inc/widgets/gallery-posts/gallery-posts.php:24
+#: inc/widgets/post-display/post-display.php:141
+#: inc/widgets/top-instructors/top-instructors.php:157
+msgid "Columns"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:234
+msgid "Number Of Courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:239
+msgid "Show Link All Courses"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:252
+msgid "Show Social Share"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:265
+msgid "Slider Options"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:283
+msgid "Courses Slider"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:285 inc/widgets/login-form/login-form.php:24
+msgid "Yes"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:293
+msgid "Row of slider"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:295
+#: inc/widgets/post-display/post-display.php:143
+#: inc/widgets/post-display/post-display.php:146
+msgid "1"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:305
+msgid "Show Page Navigation"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:314
+msgid "Show Navigation Arrow"
+msgstr ""
+
+#: inc/widgets/courses/courses.php:413
+#: inc/widgets/courses/tpl/layout-filter.php:82
+#: inc/widgets/courses/tpl/lp3/layout-filter.php:69
+#: inc/widgets/gallery-posts/gallery-posts.php:75
+#: inc/widgets/gallery-posts/tpl/base.php:86
+#: inc/widgets/top-instructors/top-instructors.php:175
+msgid "All"
+msgstr ""
+
+#: inc/widgets/courses/tpl/base.php:113 inc/widgets/courses/tpl/lp3/base.php:89
+msgid "Browse All Courses"
+msgstr ""
+
+#: inc/widgets/courses/tpl/base.php:175
+#: inc/widgets/courses/tpl/layout-filter.php:132
+#: inc/widgets/courses/tpl/lp3/base.php:140
+#: inc/widgets/courses/tpl/lp3/layout-filter.php:110
+#: learnpress-v3/content-course.php:44
+#: learnpress/addons/coming-soon-course/content-course.php:38
+#: learnpress/addons/wishlist/wishlist-content.php:20
+#: learnpress/content-course.php:39 learnpress/profile/tabs/courses/loop.php:26
+msgid "Featured"
+msgstr ""
+
+#: inc/widgets/courses/tpl/layout-02.php:112
+#: inc/widgets/courses/tpl/layout-filter.php:152
+#: inc/widgets/courses/tpl/lp3/layout-02.php:97
+#: inc/widgets/courses/tpl/lp3/layout-filter.php:126
+#: learnpress-paid-membership-pro/pages/levels.php:70
+#: learnpress-v3/learnpress-functions.php:867
+#: learnpress-v3/learnpress-functions.php:868
+#: learnpress-v3/learnpress-functions.php:1153
+#: learnpress/learnpress-functions.php:907
+#: learnpress/learnpress-functions.php:908
+#: learnpress/learnpress-functions.php:1196
+msgid "Free"
+msgstr ""
+
+#: inc/widgets/courses/tpl/layout-commingsoon.php:191
+#: inc/widgets/courses/tpl/layout-media.php:182
+#: inc/widgets/courses/tpl/lp3/layout-commingsoon.php:191
+#: inc/widgets/courses/tpl/lp3/layout-media.php:169
+#: learnpress-v3/learnpress-functions.php:1070
+#: learnpress-v3/single-course/header-info.php:29
+#: learnpress/learnpress-functions.php:924
+#: learnpress/learnpress-functions.php:1113
+#: learnpress/single-course/header-info.php:19
+#: learnpress/single-course/students.php:17
+msgid "Students"
+msgstr ""
+
+#: inc/widgets/courses/tpl/layout-megamenu.php:74
+#: inc/widgets/courses/tpl/lp3/layout-megamenu.php:69
+#: learnpress-v3/single-course/thumbnail.php:71
+#: learnpress/single-course/thumbnail.php:59
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/courses/tpl/lp3/layout-media.php:159
+#: learnpress-v3/single-course/header-info.php:21
+#: learnpress/single-course/instructor.php:19
+msgid "Teacher"
+msgstr ""
+
+#: inc/widgets/courses/tpl/lp3/layout-media.php:171
+#: learnpress-v3/single-course/students.php:28
+#, php-format
+msgid "%d Student"
+msgid_plural "%d Students"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/empty-space/empty-space.php:8
+msgid "Thim: Empty Space"
+msgstr ""
+
+#: inc/widgets/empty-space/empty-space.php:10
+msgid "Add space width custom height"
+msgstr ""
+
+#: inc/widgets/empty-space/empty-space.php:19
+#: inc/widgets/google-map/google-map.php:40
+msgid "Height"
+msgstr ""
+
+#: inc/widgets/empty-space/empty-space.php:21
+msgid "Enter empty space height."
+msgstr ""
+
+#: inc/widgets/form-login/form-login.php:8
+msgid "Thim: Form Login"
+msgstr ""
+
+#: inc/widgets/form-login/form-login.php:10
+msgid "Login Form Popup"
+msgstr ""
+
+#: inc/widgets/form-login/form-login.php:19
+msgid "Text before login"
+msgstr ""
+
+#: inc/widgets/form-login/form-login.php:24
+msgid "Text after login"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:30
+msgid "New Customer"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:32
+msgid "Register Account"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:33
+msgid ""
+"By creating an account you will be able to shop faster, be up to date on an "
+"order status, and keep track of the orders you have previously made."
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:34
+msgid "Continue"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:42
+msgid "Returning Customer"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:45
+msgid "I am a returning customer"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:47
+#: inc/widgets/login-form/tpl/base.php:41
+#: inc/widgets/login-form/tpl/base.php:179 learnpress/profile/tabs/edit.php:165
+#: learnpress/profile/tabs/edit_old.php:66
+msgid "Username"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:52
+#: inc/widgets/login-form/tpl/base.php:49
+#: inc/widgets/login-form/tpl/base.php:180
+msgid "Password"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:56
+msgid "Remember password"
+msgstr ""
+
+#: inc/widgets/form-login/lib/function-form.php:59
+#: inc/widgets/login-form/tpl/base.php:166
+#: inc/widgets/login-form/tpl/base.php:175
+#: inc/widgets/login-menu/login-menu.php:19
+msgid "Login"
+msgstr ""
+
+#: inc/widgets/form-login/tpl/base.php:3 inc/widgets/login-form/tpl/base.php:37
+#: inc/widgets/login-menu/login-menu.php:24
+msgid "Register"
+msgstr ""
+
+#: inc/widgets/form-login/tpl/base.php:8 inc/widgets/login-menu/tpl/base.php:4
+msgid "Profile"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:9
+msgid "Thim: Gallery Images"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:11
+msgid "Add gallery image"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:20
+#: inc/widgets/single-images/single-images.php:20
+msgid "Image"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:21
+#: inc/widgets/single-images/single-images.php:21
+msgid "Select image from media library."
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:27
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\""
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:37
+msgid "Number Image Per View"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:41
+#: inc/widgets/single-images/single-images.php:37
+#: inc/widgets/social/social.php:56
+msgid "Link Target"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:43
+#: inc/widgets/single-images/single-images.php:39
+#: inc/widgets/social/social.php:58
+msgid "Same window"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:44
+#: inc/widgets/single-images/single-images.php:40
+#: inc/widgets/social/social.php:59
+msgid "New window"
+msgstr ""
+
+#: inc/widgets/gallery-images/gallery-images.php:49
+msgid "Gallery Layout"
+msgstr ""
+
+#: inc/widgets/gallery-posts/gallery-posts.php:8
+msgid "Thim: Gallery Posts "
+msgstr ""
+
+#: inc/widgets/gallery-posts/gallery-posts.php:10
+msgid "Display gallery posts"
+msgstr ""
+
+#: inc/widgets/gallery-posts/gallery-posts.php:36
+msgid "Show Filter"
+msgstr ""
+
+#: inc/widgets/gallery-posts/gallery-posts.php:41
+msgid "Limit"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:7
+msgid "Thim: Google Maps"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:18
+msgid "Enter your title"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:23
+msgid "Map center"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:24
+msgid ""
+"The name of a place, town, city, or even a country. Can be an exact address "
+"too."
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:28
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:29
+msgid ""
+"Enter your Google Map API Key. Refer on https://developers.google.com/maps/"
+"documentation/javascript/get-api-key#get-an-api-key"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:35
+msgid "Set map display options."
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:44
+msgid "Zoom level"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:45
+msgid "A value from 0 (the world) to 21 (street level)."
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:56
+msgid "Scroll to zoom"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:57
+msgid "Allow scrolling over the map to zoom in or out."
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:63
+msgid "Draggable"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:64
+msgid "Allow dragging the map to move it around."
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:70
+msgid "Markers"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:72
+msgid "Use markers to identify points of interest on the map."
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:77
+msgid "Show marker at map center"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:82
+msgid "Marker Icon"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:83
+msgid "Replaces the default map marker with your own image."
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:88
+msgid "Marker positions"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:89
+msgid "Marker"
+msgstr ""
+
+#: inc/widgets/google-map/google-map.php:94
+msgid "Place"
+msgstr ""
+
+#: inc/widgets/google-map/tpl/base.php:6
+#, php-format
+msgid ""
+"<p class=\"container\">You must enter Google Map API Key. Refer on <a href="
+"\"%s\">Google Api Key</a></p>"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:8
+msgid "Thim: Heading"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:10
+#: inc/widgets/single-images/single-images.php:11
+msgid "Add heading text"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:20
+msgid "Default value"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:92
+msgid "Custom Font Style"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:94
+msgid "inherit"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:95
+msgid "initial"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:96
+msgid "italic"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:97
+msgid "normal"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:98
+msgid "oblique"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:100
+msgid "Select Custom Font Style"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:108
+msgid "Color Line"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:113
+msgid "Text Align:"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:115
+msgid "Text at Left"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:116
+msgid "Text at Right"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:117
+msgid "Text at Center"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:137
+msgid "Description Font Size"
+msgstr ""
+
+#: inc/widgets/heading/heading.php:140
+msgid "Description font size"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:7
+msgid "Thim: Icon Box"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:9
+msgid "Add icon box"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:18
+msgid "Title Options"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:25
+msgid "Provide the title for this icon box."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:30
+msgid "Color Title"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:43
+msgid "Select size heading."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:60
+msgid "Custom Heading Option"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:97
+msgid "Margin Bottom Value"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:105
+msgid "Border bottom title"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:116
+msgid "Add description"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:118
+msgid "Provide the description for this icon box."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:123
+msgid "Custom Font Size"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:150
+msgid "Color Description"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:158
+msgid "Link Icon Box"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:164
+msgid "Add Link"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:165
+msgid "Provide the link that will be applied to this icon box."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:170
+msgid "Apply link to:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:176
+msgid "Select whether to use color for icon or not."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:185
+msgid "Option Button Read More"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:195
+msgid "Read More Text"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:197
+msgid "Customize the read more text."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:202
+msgid "Text Color Read More"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:204 inc/widgets/icon-box/icon-box.php:225
+msgid "Select whether to use text color for Read More Text or default."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:209
+msgid "Border Color Read More Text:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:210
+msgid "Select whether to use border color for Read More Text or none."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:216
+msgid "Background Color Read More Text:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:217
+msgid "Select whether to use background color for Read More Text or default."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:223
+msgid "Text Hover Color Read More"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:231
+msgid "Background Hover Color Read More Text:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:232
+msgid ""
+"Select whether to use background color when hover Read More Text or default."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:244
+msgid "Icon to display:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:258
+msgid "Font 7 Stroke Icon"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:277 inc/widgets/icon-box/icon-box.php:306
+msgid "Icon Font Size "
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:287
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:316
+msgid "Custom Image Icon"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:327
+msgid "Upload Image Icon:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:328
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:338
+msgid "Width Box Icon"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:343
+msgid "Color Options"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:350
+msgid "Select Icon Color:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:351
+msgid "Select the icon color."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:355
+msgid "Icon Border Color:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:356
+msgid "Select the color for icon border."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:361
+msgid "Icon Background Color:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:362
+msgid "Select the color for icon background."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:367
+msgid "Hover Icon Color:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:368
+msgid "Select the color hover for icon."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:373
+msgid "Hover Icon Border Color:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:374
+msgid "Select the color hover for icon border."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:380
+msgid "Hover Icon Background Color:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:381
+msgid "Select the color hover for icon background ."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:388
+msgid "Layout Options"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:394
+msgid "Icon Shape"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:396
+msgid "None"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:397
+msgid "Circle"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:405
+msgid "Box Style:"
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:412
+msgid ""
+"Select icon position. Icon box style will be changed according to the icon "
+"position."
+msgstr ""
+
+#: inc/widgets/icon-box/icon-box.php:417
+msgid "Text Align Shortcode:"
+msgstr ""
+
+#: inc/widgets/instructor-of-month/instructor-of-month.php:15
+msgid "Thim: Instructor Of Month"
+msgstr ""
+
+#: inc/widgets/instructor-of-month/instructor-of-month.php:17
+msgid "Show instructor of month who created popular courses."
+msgstr ""
+
+#: inc/widgets/instructor-of-month/instructor-of-month.php:32
+msgid "Instructor of the month"
+msgstr ""
+
+#: inc/widgets/instructor-of-month/instructor-of-month.php:157
+msgid "Number Of Feature courses"
+msgstr ""
+
+#: inc/widgets/instructor-of-month/tpl/base-v1.php:58
+#: inc/widgets/instructor-of-month/tpl/base-v2.php:57
+#: inc/widgets/instructor-of-month/tpl/base.php:76
+#: inc/widgets/top-instructors/tpl/base-v1.php:77
+#: inc/widgets/top-instructors/tpl/base-v2.php:92
+#: inc/widgets/top-instructors/tpl/base.php:90
+msgid "Instructor"
+msgstr ""
+
+#: inc/widgets/instructor-of-month/tpl/base-v1.php:59
+#: inc/widgets/instructor-of-month/tpl/base-v2.php:58
+#: inc/widgets/top-instructors/tpl/base-v1.php:73
+#: inc/widgets/top-instructors/tpl/base-v2.php:88
+#: inc/widgets/top-instructors/tpl/base.php:86
+msgid "Courses by instructors"
+msgstr ""
+
+#: inc/widgets/instructor-of-month/tpl/base.php:77
+msgid "Courses by instructors "
+msgstr ""
+
+#: inc/widgets/instructor-of-month/tpl/base.php:115
+msgid "Teacher:"
+msgstr ""
+
+#: inc/widgets/instructor-of-month/tpl/base.php:132
+msgid "Browse All Courses by "
+msgstr ""
+
+#: inc/widgets/login-form/login-form.php:8
+msgid "Thim: Login Form"
+msgstr ""
+
+#: inc/widgets/login-form/login-form.php:10
+msgid "Add login form"
+msgstr ""
+
+#: inc/widgets/login-form/login-form.php:19
+msgid "Captcha"
+msgstr ""
+
+#: inc/widgets/login-form/login-form.php:20
+msgid "Use captcha in register form"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:6
+#, php-format
+msgid "You have logged in. You better go to <a href=\"%s\">Home</a>"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:13
+msgid "Invalid username or password. Please try again!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:19
+msgid "Please enter a username!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:22
+msgid "Please type your e-mail address!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:25
+msgid "This username is already registered. Please choose another one!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:28
+msgid "This email is already registered. Please choose another one!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:31
+msgid "The email address isn't correct. Please try again!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:34
+msgid "The username is invalid. Please try again!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:45
+msgid "Email"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:52
+msgid "Repeat Password"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:80
+msgid "Sign up"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:83
+msgid "Are you a member? "
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:83
+msgid "Login now"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:88
+msgid "Your site does not allow users registration."
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:96
+msgid "Please enter a username or email!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:99
+msgid "The user does not exist. Please try again!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:103
+msgid "Get Your Password"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:106
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:108
+msgid "Username or email"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:110
+msgid "Reset password"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:121
+msgid "The key is expired. Please try again!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:124
+msgid "The key is invalid. Please try again!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:127
+msgid "The password is invalid. Please try again!"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:131 learnpress/profile/tabs/edit.php:30
+#: learnpress/profile/tabs/edit.php:230
+#: learnpress/profile/tabs/edit_old.php:135
+msgid "Change Password"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:136
+#: learnpress/profile/tabs/edit/change-password.php:24
+msgid "New password"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:139
+msgid "Reset Password"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:149
+msgid "Registration is successful. Confirmation will be e-mailed to you."
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:154
+msgid "Check your email to get a link to create a new password."
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:159
+#, php-format
+msgid "Password changed. You can <a href=\"%s\">login</a> now."
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:174
+msgid "Remember me"
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:184
+msgid "Not a member yet? "
+msgstr ""
+
+#: inc/widgets/login-form/tpl/base.php:184
+msgid "Register now"
+msgstr ""
+
+#: inc/widgets/login-menu/login-menu.php:7
+msgid "Thim: Login Menu"
+msgstr ""
+
+#: inc/widgets/login-menu/login-menu.php:9
+msgid "Display Login Menu"
+msgstr ""
+
+#: inc/widgets/login-menu/login-menu.php:18
+msgid "Text Login"
+msgstr ""
+
+#: inc/widgets/login-menu/login-menu.php:23
+msgid "Text for Register"
+msgstr ""
+
+#: inc/widgets/login-menu/login-menu.php:28
+msgid "Text Logout"
+msgstr ""
+
+#: inc/widgets/login-menu/login-menu.php:29
+msgid "Logout"
+msgstr ""
+
+#: inc/widgets/our-team/our-team.php:9
+msgid "Thim: Our Team"
+msgstr ""
+
+#: inc/widgets/our-team/our-team.php:25
+#: inc/widgets/post-display/post-display.php:136
+#: inc/widgets/testimonials/testimonials.php:135
+msgid "Number Posts"
+msgstr ""
+
+#: inc/widgets/our-team/our-team.php:32
+msgid "List-01"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:9
+msgid "Thim: Post Display"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:25
+msgid "Latest News"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:102
+msgid "Heading Description"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:110
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:105
+msgid "Config Color"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:121
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:117
+msgid "Meta color"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:151
+msgid "Order by"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:153
+#: learnpress/profile/tabs/orders.php:16
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:156
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:161
+#: learnpress/profile/tabs/orders.php:15
+msgid "Order"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:163
+msgid "ASC"
+msgstr ""
+
+#: inc/widgets/post-display/post-display.php:164
+msgid "DESC"
+msgstr ""
+
+#: inc/widgets/post-display/tpl/base.php:74
+msgid "0 comment"
+msgstr ""
+
+#: inc/widgets/post-display/tpl/base.php:74
+msgid "1 comment"
+msgstr ""
+
+#: inc/widgets/post-display/tpl/base.php:74
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/widgets/recent-posts/recent-posts.php:18
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/recent-posts/recent-posts.php:23
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/recent-posts/recent-posts.php:29
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widgets/recent-posts/recent-posts.php:33
+msgid "Select category"
+msgstr ""
+
+#: inc/widgets/recent-posts/recent-posts.php:57
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:9
+msgid "Thim: Single Images"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:28
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:32
+msgid "Image Link"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:33
+msgid "Enter URL if you want this image to have a link."
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:45
+msgid "Image alignment"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:48
+msgid "Align Left"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:49
+msgid "Align Right"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:50
+msgid "Align Center"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:55
+msgid "Image style"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:69
+#: inc/widgets/single-images/single-images.php:70
+msgid "Image Title"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:78
+#: inc/widgets/single-images/single-images.php:79
+msgid "Image Description"
+msgstr ""
+
+#: inc/widgets/single-images/single-images.php:87
+#: inc/widgets/single-images/single-images.php:88
+msgid "Image Button"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:7
+msgid "Thim: Slider"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:9
+msgid "Thim Slider"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:18
+msgid "Slider Frames"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:28
+msgid "Color Overlay images"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:42
+msgid "Heading Slider"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:47
+msgid "Custom Font Size Title"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:53
+msgid "Heading Color Title"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:58
+msgid "line bottom"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:70
+msgid "Description Color"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:74
+msgid "Content Align:"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:76
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:77
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:78
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:87
+msgid "Animation Speed"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:88
+msgid "Animation speed in milliseconds."
+msgstr ""
+
+#: inc/widgets/slider/slider.php:93
+msgid "Timeout"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:94
+msgid "How long each slide is displayed for in milliseconds."
+msgstr ""
+
+#: inc/widgets/slider/slider.php:99
+msgid "Full Screen"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:103
+msgid "Icon Scroll"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:105
+msgid "Show"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:106
+msgid "Hide"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:116
+msgid "Text Before Arrow"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:125
+msgid "ID"
+msgstr ""
+
+#: inc/widgets/slider/slider.php:130
+msgid "id section scoll"
+msgstr ""
+
+#: inc/widgets/social/social.php:9
+msgid "Thim: Social Links"
+msgstr ""
+
+#: inc/widgets/social/social.php:11
+msgid "Social Links"
+msgstr ""
+
+#: inc/widgets/social/social.php:24
+msgid "Facebook Url"
+msgstr ""
+
+#: inc/widgets/social/social.php:28
+msgid "Twitter Url"
+msgstr ""
+
+#: inc/widgets/social/social.php:32
+msgid "Google Url"
+msgstr ""
+
+#: inc/widgets/social/social.php:36
+msgid "Dribble Url"
+msgstr ""
+
+#: inc/widgets/social/social.php:40
+msgid "Linked in Url"
+msgstr ""
+
+#: inc/widgets/social/social.php:44
+msgid "Pinterest Url"
+msgstr ""
+
+#: inc/widgets/social/social.php:48
+msgid "Digg Url"
+msgstr ""
+
+#: inc/widgets/social/social.php:52
+msgid "Youtube Url"
+msgstr ""
+
+#: inc/widgets/tab/tab.php:8
+msgid "Thim: Tab"
+msgstr ""
+
+#: inc/widgets/tab/tab.php:10
+msgid "Add tab"
+msgstr ""
+
+#: inc/widgets/tab/tab.php:19 inc/widgets/tab/tab.php:20
+msgid "Tab"
+msgstr ""
+
+#: inc/widgets/tab/tab.php:24
+msgid "Tab Title"
+msgstr ""
+
+#: inc/widgets/testimonials/testimonials.php:8
+msgid "Thim: Testimonials"
+msgstr ""
+
+#: inc/widgets/testimonials/testimonials.php:24
+#: templates/page-title/page-title.php:393
+msgid "Testimonials"
+msgstr ""
+
+#: inc/widgets/testimonials/testimonials.php:105
+msgid "Config"
+msgstr ""
+
+#: inc/widgets/testimonials/testimonials.php:111
+msgid "Background Content Color"
+msgstr ""
+
+#: inc/widgets/testimonials/testimonials.php:117
+msgid "Text Content color"
+msgstr ""
+
+#: inc/widgets/testimonials/testimonials.php:122
+msgid "Author color"
+msgstr ""
+
+#: inc/widgets/testimonials/testimonials.php:128
+msgid "Regency color"
+msgstr ""
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:9
+msgid "Thim: Recent Comments"
+msgstr ""
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:25
+msgid "Recent Comments"
+msgstr ""
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:124
+msgid "Number Comments"
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:15
+msgid "Thim: Top Instructors"
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:17
+msgid "Show top instructors who created popular courses."
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:32
+msgid "Top Instructors"
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:167
+msgid "Number Of Instructors"
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:172
+msgid "Type Of Instructor"
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:176
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:181
+msgid "Text All"
+msgstr ""
+
+#: inc/widgets/top-instructors/top-instructors.php:186
+msgid "Link All"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:7
+msgid "Thim: Tweets Feed"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:9
+msgid "List Tweets Feed"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:19
+msgid "Latest Tweets"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:23
+msgid "Consumer Key"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:24
+msgid "8MLtU0vPrqY5ID5f9R5w"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:28
+msgid "Consumer Secret"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:29
+msgid "H7wIO5OUFgbNlq5h8pzXOhyubR7awP9VCO37b2JU1A"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:33
+msgid "Access Token"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:34
+msgid "624443553-wJTdW8WTORDnggzV9C0mUFJ1nbv4kCZgxy5JKlYu"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:38
+msgid "Access Token Secret"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:39
+msgid "dsLFF01Hn3a3YcDt0DjCofoxxABkoyJkhLSa302S3fzJj"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:43
+msgid "Twitter Name"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:44
+msgid "themeforest"
+msgstr ""
+
+#: inc/widgets/tweets-feed/tweets-feed.php:48
+msgid "Number of Tweets"
+msgstr ""
+
+#: inc/widgets/widgets.php:77
+msgid "Extra Class"
+msgstr ""
+
+#: learnpress-paid-membership-pro/pages/levels.php:19
+msgid "Number of courses"
+msgstr ""
+
+#: learnpress-paid-membership-pro/pages/levels.php:142
+msgid "GET STARTED"
+msgstr ""
+
+#: learnpress-paid-membership-pro/pages/levels.php:148
+msgid "Renew"
+msgstr ""
+
+#: learnpress-paid-membership-pro/pages/levels.php:152
+msgid "Your Level"
+msgstr ""
+
+#: learnpress-v3/addons/course-review/course-rate.php:26
+#: learnpress/addons/course-review/course-rate.php:17
+#, php-format
+msgid "(%1$s Review)"
+msgid_plural "(%1$s Reviews)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v3/addons/course-review/course-rate.php:26
+#: learnpress/addons/course-review/course-rate.php:17
+msgid "(0 Reviews)"
+msgstr ""
+
+#: learnpress-v3/addons/course-review/course-rate.php:28
+#: learnpress/addons/course-review/course-rate.php:19
+#, php-format
+msgid "( %s Rating )"
+msgid_plural "( %s Rating )"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v3/content-archive-course.php:30 learnpress/archive-course.php:27
+msgid "There are no available courses!"
+msgstr ""
+
+#: learnpress-v3/content-archive-course.php:34 learnpress/archive-course.php:30
+msgid "Showing only one result"
+msgstr ""
+
+#: learnpress-v3/content-archive-course.php:52 learnpress/archive-course.php:48
+#, php-format
+msgid "Showing last course of %s results"
+msgstr ""
+
+#: learnpress-v3/content-archive-course.php:57 learnpress/archive-course.php:53
+#, php-format
+msgid "Showing %s-%s of %s results"
+msgstr ""
+
+#: learnpress-v3/content-archive-course.php:90 learnpress/archive-course.php:82
+msgid "Search our courses"
+msgstr ""
+
+#: learnpress-v3/content-archive-course.php:121
+#: learnpress/content-archive-course.php:36
+msgid "No course found."
+msgstr ""
+
+#: learnpress-v3/content-single-course.php:73
+#: learnpress/content-single-course.php:61
+msgid "30-Day Money-Back Guarantee"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:47
+#: learnpress-v3/learnpress-functions.php:60
+#: learnpress-v3/learnpress-functions.php:66
+#: learnpress-v3/learnpress-functions.php:71
+#: learnpress/learnpress-functions.php:48
+#: learnpress/learnpress-functions.php:61
+#: learnpress/learnpress-functions.php:67
+#: learnpress/learnpress-functions.php:72
+msgid "All courses"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:158
+#: learnpress-v3/learnpress-functions.php:174
+#: learnpress-v3/learnpress-functions.php:177
+#: learnpress-v3/learnpress-functions.php:1074
+#: learnpress/learnpress-functions.php:197
+#: learnpress/learnpress-functions.php:213
+#: learnpress/learnpress-functions.php:216
+#: learnpress/learnpress-functions.php:1117
+msgid "Courses"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:165
+#: learnpress/learnpress-functions.php:204
+#: learnpress/single-course/section/item-quiz.php:33
+msgid "Quiz"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:203
+#: learnpress-v3/learnpress-functions.php:1292
+#: learnpress-v3/learnpress-functions.php:1296
+#: learnpress/learnpress-functions.php:242
+#: learnpress/learnpress-functions.php:1335
+#: learnpress/learnpress-functions.php:1339
+msgid "h"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:206
+#: learnpress-v3/learnpress-functions.php:1292
+#: learnpress-v3/learnpress-functions.php:1294
+#: learnpress/learnpress-functions.php:245
+#: learnpress/learnpress-functions.php:1335
+#: learnpress/learnpress-functions.php:1337
+msgid "m"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:243
+#: learnpress/learnpress-functions.php:282
+msgid "No course found"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:317
+#: learnpress/learnpress-functions.php:356
+msgid "Teacher: "
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:396
+#: learnpress/addons/course-review/course-review.php:12
+#: learnpress/learnpress-functions.php:435
+msgid "Reviews"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:406
+#: learnpress/learnpress-functions.php:445
+#, php-format
+msgid "%1$s rating"
+msgid_plural "%1$s ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v3/learnpress-functions.php:406
+#: learnpress/learnpress-functions.php:445
+msgid "0 rating"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:435
+#: learnpress/learnpress-functions.php:474
+msgid "at"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:478
+#: learnpress/learnpress-functions.php:517
+msgid "Leave A Review"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:480
+#: learnpress/learnpress-functions.php:519
+msgid ""
+"Please provide as much detail as you can to justify your rating and to help "
+"others."
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:485
+#: learnpress/addons/course-review/review-form.php:29
+#: learnpress/learnpress-functions.php:524
+msgid "Rating"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:512
+#: learnpress/learnpress-functions.php:551
+msgid "Submit Review"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:580
+#: learnpress/learnpress-functions.php:620
+#, php-format
+msgid "%s star"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:580
+#: learnpress/learnpress-functions.php:620
+#, php-format
+msgid "%s stars"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:636
+#: learnpress-v3/single-course/instructor.php:25
+#: learnpress/learnpress-functions.php:676
+msgid "Instructors"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:705
+#: learnpress/learnpress-functions.php:745
+msgid "LearnPress Profile"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:711
+#: learnpress/learnpress-functions.php:751
+#: learnpress/profile/tabs/edit/basic-information.php:64
+msgid "Phone"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:719
+#: learnpress/learnpress-functions.php:759
+msgid "Location"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:727
+#: learnpress/learnpress-functions.php:767
+#: learnpress/profile/tabs/edit/basic-information.php:57
+msgid "Major"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:735
+#: learnpress/learnpress-functions.php:775
+msgid "Facebook Account"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:743
+#: learnpress/learnpress-functions.php:783
+msgid "Twitter Account"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:751
+#: learnpress/learnpress-functions.php:791
+msgid "Google Plus Account"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:759
+#: learnpress/learnpress-functions.php:799
+msgid "LinkedIn Plus Account"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:767
+#: learnpress/learnpress-functions.php:807
+msgid "Youtube Account"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:807
+#: learnpress/learnpress-functions.php:847
+msgid "Your change is saved"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:809
+#: learnpress/learnpress-functions.php:849
+msgid "Error on update your profile info"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:830
+#: learnpress/learnpress-functions.php:871
+msgid "Related Courses"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:993
+#: learnpress-v3/learnpress-functions.php:1021
+#: learnpress/learnpress-functions.php:1036
+#: learnpress/learnpress-functions.php:1064
+msgid "Media"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:996
+#: learnpress/learnpress-functions.php:1039
+msgid "Link or iframe media of Course."
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:999
+#: learnpress-v3/learnpress-functions.php:1027
+#: learnpress/learnpress-functions.php:1042
+#: learnpress/learnpress-functions.php:1070
+msgid "Includes"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:1002
+#: learnpress/learnpress-functions.php:1045
+msgid "Includes infomation of Courses"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:1005
+#: learnpress/learnpress-functions.php:1048
+msgid "Info Button Box"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:1008
+#: learnpress/learnpress-functions.php:1051
+msgid "Add text info button"
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:1024
+#: learnpress-v3/learnpress-functions.php:1030
+#: learnpress/learnpress-functions.php:1067
+#: learnpress/learnpress-functions.php:1073
+msgid "Add an embed link like video, PDF, slider..."
+msgstr ""
+
+#: learnpress-v3/learnpress-functions.php:1268
+#: learnpress/learnpress-functions.php:1311
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v3/learnpress-functions.php:1271
+#: learnpress/learnpress-functions.php:1314
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v3/learnpress-functions.php:1274
+#: learnpress/learnpress-functions.php:1317
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v3/learnpress-functions.php:1277
+#: learnpress/learnpress-functions.php:1320
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v3/profile/profile-cover.php:83 learnpress/profile/info.php:65
+msgid "About me"
+msgstr ""
+
+#: learnpress-v3/profile/profile.php:39
+msgid "This user does not public their profile."
+msgstr ""
+
+#: learnpress-v3/profile/tabs/courses/owned.php:25
+msgid "My Courses"
+msgstr ""
+
+#: learnpress-v3/profile/tabs/courses/owned.php:38
+msgid "No courses!"
+msgstr ""
+
+#: learnpress-v3/single-course/header-info.php:30
+#: learnpress/single-course/header-info.php:20
+msgid "Registered"
+msgstr ""
+
+#: learnpress-v3/single-course/header-info.php:34
+#: learnpress/single-course/header-info.php:24
+msgid "Review"
+msgstr ""
+
+#: learnpress-v3/single-course/tabs/curriculum.php:24
+#: learnpress/single-course/curriculum.php:16
+msgid "Course Curriculum"
+msgstr ""
+
+#: learnpress-v3/single-course/tabs/curriculum.php:55
+#: learnpress/single-course/curriculum.php:47
+msgid "Curriculum is empty"
+msgstr ""
+
+#: learnpress/addons/bbpress/forum-link.php:2
+msgid "Connect"
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:13
+#, php-format
+msgid "Average rate: <span>%.1f</span>"
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:21
+#: templates/preloading/custom-image.php:9
+msgid "Loading..."
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:24
+msgid "No review to load"
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:27
+msgid "Load More"
+msgstr ""
+
+#: learnpress/addons/course-review/review-form.php:17
+msgid "Write a review"
+msgstr ""
+
+#: learnpress/addons/course-review/review-form.php:39
+msgid "Add review"
+msgstr ""
+
+#: learnpress/addons/course-review/review-form.php:40
+#: learnpress/profile/tabs/edit.php:144 learnpress/profile/tabs/orders.php:30
+msgid "Cancel"
+msgstr ""
+
+#: learnpress/addons/course-review/review-form.php:41
+msgid "Please wait..."
+msgstr ""
+
+#: learnpress/addons/wishlist/button.php:13
+msgid "Save to Wishlist"
+msgstr ""
+
+#: learnpress/addons/wishlist/user-wishlist.php:22
+msgid "No courses in your wishlist!"
+msgstr ""
+
+#: learnpress/content-lesson/description.php:25
+msgid "This lesson has not got the content"
+msgstr ""
+
+#: learnpress/content-lesson/next-button.php:15
+#: learnpress/content-quiz/buttons.php:35
+msgid "Next"
+msgstr ""
+
+#: learnpress/content-lesson/prev-button.php:15
+msgid "Prev"
+msgstr ""
+
+#: learnpress/content-quiz/buttons.php:34
+msgid "Previous"
+msgstr ""
+
+#: learnpress/content-quiz/buttons.php:42
+msgid "Check"
+msgstr ""
+
+#: learnpress/content-quiz/buttons.php:44
+msgid "Hint"
+msgstr ""
+
+#: learnpress/content-quiz/buttons.php:53
+#: learnpress/single-course/buttons.php:27
+msgid "Retake"
+msgstr ""
+
+#: learnpress/content-quiz/buttons.php:63
+msgid "Start Quiz"
+msgstr ""
+
+#: learnpress/content-quiz/buttons.php:73
+msgid "Finish Quiz"
+msgstr ""
+
+#: learnpress/content-quiz/countdown-simple.php:35
+msgid "Questions"
+msgstr ""
+
+#: learnpress/content-quiz/countdown-simple.php:35
+#: learnpress/content-quiz/question-content.php:33
+msgid "Question"
+msgstr ""
+
+#: learnpress/content-quiz/countdown-simple.php:39
+#: learnpress/content-quiz/history.php:41 learnpress/content-quiz/result.php:51
+msgid "Time"
+msgstr ""
+
+#: learnpress/content-quiz/countdown-simple.php:45
+msgid "(h:m:s)"
+msgstr ""
+
+#: learnpress/content-quiz/countdown-simple.php:45
+msgid "(m:s)"
+msgstr ""
+
+#: learnpress/content-quiz/history.php:26
+#, php-format
+msgid "Other results (Latest %d items)"
+msgstr ""
+
+#: learnpress/content-quiz/history.php:42
+msgid "Result"
+msgstr ""
+
+#: learnpress/content-quiz/history.php:67
+msgid "No history found!"
+msgstr ""
+
+#: learnpress/content-quiz/questions.php:20
+msgid "List of questions"
+msgstr ""
+
+#: learnpress/content-quiz/questions.php:58
+msgid "This quiz hasn't got any questions"
+msgstr ""
+
+#: learnpress/content-quiz/result.php:22
+#, php-format
+msgid ""
+"You are not logged in! Please <a href=\"%s\">login</a> to save the results. "
+"The results will be deleted after your session destroyed"
+msgstr ""
+
+#: learnpress/content-quiz/result.php:28
+#, php-format
+msgid "You have reached %d of %d points (%s)"
+msgstr ""
+
+#: learnpress/content-quiz/result.php:31
+#, php-format
+msgid "Correct %d (%0.0f%%)"
+msgstr ""
+
+#: learnpress/content-quiz/result.php:32
+#, php-format
+msgid "Wrong %d (%0.0f%%)"
+msgstr ""
+
+#: learnpress/content-quiz/result.php:33
+#, php-format
+msgid "Empty %d (%0.0f%%)"
+msgstr ""
+
+#: learnpress/content-quiz/result.php:46
+msgid "Points"
+msgstr ""
+
+#: learnpress/content-quiz/result.php:69 learnpress/content-quiz/result.php:71
+#, php-format
+msgid "Your quiz grade <b>%s</b>. Quiz requirement <b>%s</b>"
+msgstr ""
+
+#: learnpress/loop/course/instructor.php:19
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: learnpress/loop/course/students.php:18
+msgid "students"
+msgstr ""
+
+#: learnpress/loop/course/students.php:20
+msgid "student"
+msgstr ""
+
+#: learnpress/profile/info.php:90
+msgid "Qualifications"
+msgstr ""
+
+#: learnpress/profile/order-details.php:13
+msgid "My Profile"
+msgstr ""
+
+#: learnpress/profile/private-area.php:8
+msgid "This is private area. Please login to view this."
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:16
+msgid "Learning Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:17
+#: learnpress/profile/tabs/courses/purchased.php:18
+msgid "Purchased Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:18
+#: learnpress/profile/tabs/courses/finished.php:18
+msgid "Finished Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/all.php:40
+msgid "You haven't got any courses yet!"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/finished.php:35
+msgid "No finished courses."
+msgstr ""
+
+#: learnpress/profile/tabs/courses/learning.php:20
+msgid "Enrolled Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/own.php:18
+msgid "Own Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/own.php:37
+msgid "No published courses."
+msgstr ""
+
+#: learnpress/profile/tabs/courses/progress.php:41
+#, php-format
+msgid "Passing condition: %s%%"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/purchased.php:36
+msgid "No purchased courses."
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:28
+msgid "Basic Information"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:29
+msgid "Avatar"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:60
+msgid "Update"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:86 learnpress/profile/tabs/edit_old.php:37
+msgid "About Yourself"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:89 learnpress/profile/tabs/edit_old.php:40
+msgid "Profile Picture"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:103
+msgid "Change Picture"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:106 learnpress/profile/tabs/edit_old.php:44
+#: learnpress/profile/tabs/edit_old.php:49
+msgid "Gravatar"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:108 learnpress/profile/tabs/edit_old.php:45
+msgid "Picture"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:112
+msgid "Use Gravatar"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:114
+msgid "Use Picture"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:116 learnpress/profile/tabs/edit.php:126
+msgid "Upload Picture"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:128
+msgid ""
+"Please use an image that's at least 250px in width, 250px in height and "
+"under 2MB in size"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:139
+msgid "Choose File"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:141
+msgid "Apply Changes"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:155
+#: learnpress/profile/tabs/edit/basic-information.php:17
+#: learnpress/profile/tabs/edit_old.php:58
+msgid "Biographical Info"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:159
+#: learnpress/profile/tabs/edit/basic-information.php:19
+#: learnpress/profile/tabs/edit_old.php:60
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:162 learnpress/profile/tabs/edit_old.php:63
+msgid "Name"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:170 learnpress/profile/tabs/edit_old.php:68
+msgid "Username cannot be changed."
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:174
+#: learnpress/profile/tabs/edit/basic-information.php:24
+#: learnpress/profile/tabs/edit_old.php:72
+msgid "First Name"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:180
+#: learnpress/profile/tabs/edit/basic-information.php:30
+#: learnpress/profile/tabs/edit_old.php:77
+msgid "Last Name"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:186 learnpress/profile/tabs/edit_old.php:82
+msgid "Nickname *"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:191
+#: learnpress/profile/tabs/edit/basic-information.php:42
+#: learnpress/profile/tabs/edit_old.php:86
+msgid "Display name publicly as"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:226
+#: learnpress/profile/tabs/edit_old.php:133
+msgid "Account Management"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:233
+#: learnpress/profile/tabs/edit_old.php:137
+msgid "Old Password"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:237
+#: learnpress/profile/tabs/edit_old.php:140
+msgid "New Password"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:241
+#: learnpress/profile/tabs/edit_old.php:143
+msgid "Repeat New Password"
+msgstr ""
+
+#: learnpress/profile/tabs/edit.php:256
+#: learnpress/profile/tabs/edit_old.php:155
+msgid "Update Profile"
+msgstr ""
+
+#: learnpress/profile/tabs/edit/avatar.php:62
+msgid "Upload"
+msgstr ""
+
+#: learnpress/profile/tabs/edit/basic-information.php:36
+msgid "Nickname"
+msgstr ""
+
+#: learnpress/profile/tabs/edit/basic-information.php:95
+msgid "Youtube"
+msgstr ""
+
+#: learnpress/profile/tabs/edit/change-password.php:17
+msgid "Old password"
+msgstr ""
+
+#: learnpress/profile/tabs/edit/change-password.php:30
+msgid "Confirmation password"
+msgstr ""
+
+#: learnpress/profile/tabs/edit/change-password.php:33
+msgid "New password does not match!"
+msgstr ""
+
+#: learnpress/profile/tabs/edit_old.php:48
+msgid "You can change your profile picture on"
+msgstr ""
+
+#: learnpress/profile/tabs/edit_old.php:121
+msgid "Contact Info"
+msgstr ""
+
+#: learnpress/profile/tabs/edit_old.php:124
+msgid "Email *"
+msgstr ""
+
+#: learnpress/profile/tabs/edit_old.php:129
+msgid "Website"
+msgstr ""
+
+#: learnpress/profile/tabs/edit_old.php:145
+msgid "Type your new password again."
+msgstr ""
+
+#: learnpress/profile/tabs/orders.php:17
+msgid "Status"
+msgstr ""
+
+#: learnpress/profile/tabs/orders.php:18
+msgid "Total"
+msgstr ""
+
+#: learnpress/profile/tabs/orders.php:19
+msgid "Action"
+msgstr ""
+
+#: learnpress/profile/tabs/orders.php:39
+msgid "View"
+msgstr ""
+
+#: learnpress/profile/tabs/orders.php:54
+msgid "You have not got any orders yet!"
+msgstr ""
+
+#: learnpress/profile/tabs/quizzes.php:27
+msgid "You haven't started any quiz!"
+msgstr ""
+
+#: learnpress/single-course/buttons.php:25
+#: learnpress/single-course/buttons.php:34
+msgid "Buy this course"
+msgstr ""
+
+#: learnpress/single-course/buttons.php:26
+msgid "Take this course"
+msgstr ""
+
+#: learnpress/single-course/buttons.php:53
+#, php-format
+msgid "Retake course (+%d)"
+msgstr ""
+
+#: learnpress/single-course/buttons.php:75
+msgid "Finish course"
+msgstr ""
+
+#: learnpress/single-course/buttons.php:98
+msgid "You have purchased this course. Please wait for approval."
+msgstr ""
+
+#: learnpress/single-course/buttons.php:100
+msgid "Sorry, you can not purchase this course"
+msgstr ""
+
+#: learnpress/single-course/content-item-lp_lesson.php:34
+#: learnpress/single-course/section/item-meta.php:69
+msgid "Completed"
+msgstr ""
+
+#: learnpress/single-course/content-item-lp_lesson.php:73
+msgid "Complete Lesson"
+msgstr ""
+
+#: learnpress/single-course/content-item-lp_quiz.php:23
+msgid "You can't start quiz because you have finished this course."
+msgstr ""
+
+#: learnpress/single-course/content-item-lp_quiz.php:67
+msgid "No questions"
+msgstr ""
+
+#: learnpress/single-course/content-item.php:62
+msgid "Edit this item"
+msgstr ""
+
+#: learnpress/single-course/section/content.php:42
+msgid "No items in this section"
+msgstr ""
+
+#: learnpress/single-course/section/item-meta.php:35
+msgid "Preview"
+msgstr ""
+
+#: learnpress/single-course/section/item-meta.php:48
+msgid "Final Quiz"
+msgstr ""
+
+#: learnpress/single-course/section/item-meta.php:54
+msgid "Passed"
+msgstr ""
+
+#: learnpress/single-course/section/item-meta.php:57
+msgid "Failed"
+msgstr ""
+
+#: learnpress/single-course/section/item-meta.php:61
+#: learnpress/single-course/section/item-meta.php:72
+msgid "Viewed"
+msgstr ""
+
+#: learnpress/single-course/section/item-meta.php:64
+msgid "In Progress"
+msgstr ""
+
+#: learnpress/single-course/section/item-meta.php:86
+msgid "questions"
+msgstr ""
+
+#: learnpress/single-course/students-list.php:16
+#: learnpress/single-course/students-list.php:55
+msgid "students enrolled"
+msgstr ""
+
+#: learnpress/single-course/students-list.php:55
+msgid "and"
+msgstr ""
+
+#: learnpress/single-course/students-list.php:55
+#, php-format
+msgid "one student enrolled."
+msgid_plural "%s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress/single-course/students-list.php:62
+#, php-format
+msgid "One student enrolled."
+msgid_plural "%s students enrolled."
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress/single-course/students-list.php:64
+msgid "No student enrolled."
+msgstr ""
+
+#: templates/header/header_v3.php:22 templates/header/header_v5.php:18
+msgid "Menu"
+msgstr ""
+
+#: templates/page-title/page-title.php:304
+msgid "Grid"
+msgstr ""
+
+#: templates/page-title/page-title.php:305
+msgid "List"
+msgstr ""
+
+#: templates/page-title/page-title.php:389
+msgid "Our Team"
+msgstr ""
+
+#: templates/template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/template-parts/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/template-parts/content-page.php:16
+#: templates/template-parts/content-single.php:36
+msgid "Pages:"
+msgstr ""
+
+#: templates/template-parts/content.php:70
+msgid "Read more"
+msgstr ""
+
+#: templates/template-parts/related-posts.php:13
+msgid "Your Might Also Like"
+msgstr ""
+
+#: woocommerce/content-product.php:91 woocommerce/content-product.php:141
+msgid "Compare"
+msgstr ""
+
+#: woocommerce/content-quickview-product.php:111
+msgid "VIEW DETAIL"
+msgstr ""
+
+#: woocommerce/single-product/related.php:28
+msgid "Related products"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "eLearningWP"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://elearningwp.thimpress.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A education WordPress theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThimPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://thimpress.com"
+msgstr ""

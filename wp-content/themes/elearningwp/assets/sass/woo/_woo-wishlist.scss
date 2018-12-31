@@ -1,0 +1,55 @@
+/* Wisth list page */
+#yith-wcwl-popup-message {
+	display: none !important;
+}
+#yith-wcwl-form {
+	> h2 {
+		margin-bottom: 10px;
+	}
+	.wishlist_table {
+		border-radius: 0;
+		td {
+			border-bottom: 0;
+			&.product-remove {
+				text-align: center;
+			}
+		}
+		tr td.product-stock-status span.wishlist-in-stock {
+			color: inherit;
+		}
+		a.remove {
+			display: inline-block;
+		}
+		.product-add-to-cart {
+			.add_to_cart.button.alt {
+				box-shadow: none;
+				text-shadow: none;
+				border-radius: 0;
+				background: transparent;
+				text-transform: uppercase;
+				color: #FFF;
+				border: none;
+				padding: 20px;
+				font-size: 13px;
+				line-height: 0px;
+				padding-left: 44px;
+				&:hover {
+					background: #181818;
+					color: #fff;
+				}
+				&:before {
+					font-family: FontAwesome;
+					content: "\f07a";
+					font-size: 16px;
+					position: absolute;
+					left: 15px;
+				}
+			}
+		}
+	}
+	.yith-wcwl-share {
+		> h4 {
+			margin-bottom: 10px;
+		}
+	}	
+}

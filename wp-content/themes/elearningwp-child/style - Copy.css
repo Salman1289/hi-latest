@@ -1,0 +1,80 @@
+/*
+ Theme Name:   eLearningWP Child
+ Theme URI:    http://elearningwp.thimpress.com/
+ Description:  eLearningWP Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     elearningwp
+ Version:      1.0.0
+ Text Domain:  thim
+*/
+
+
+.menu-main-menu li.tc-menu-depth-0:first-child a{
+font-size: 0px!important;
+}
+
+/*.menu-main-menu li.tc-menu-depth-0:first-child{
+display: none!important;
+}*/
+
+.menu-main-menu li.tc-menu-depth-0:first-child a:before{
+content: none;
+/*padding: 10px;*/
+}
+.menu-main-menu li:first-child a .fa.fa-home{
+font-size: 24px!important;
+}
+.menu-main-menu li a:before{
+	content: url('./images/vertical-border.png');
+	position: absolute;
+    left: 0;
+    top: 14px;
+}
+.menu-main-menu li .sub-menu a:before{
+	content: none;
+}
+.ob-slider-base ul.ob-slider-images li.ob-slider-image{
+	height: auto;
+}
+#popular-course-row .widget-box-title{
+	text-align: center;
+}
+
+#popular-course-row .widget-box-title:after{
+
+    left: 40%;
+    height: 2px;
+    background: #23a897;
+    width: 100px;
+}
+#popular-course-row .widget-box-title .browse-all-courses{
+	color: #23a897;
+	border-bottom: 1px solid #23a897;
+	    font-size: 16px;
+}
+#popular-course-row .archive-courses article .inner-course{
+	border-bottom: 4px solid #23a897;
+}
+#events-div .events-display .single-event .event-img{
+	    width: 42%;
+    float: left;
+    margin-right: 16px;
+}
+#events-div .events-display .single-event .event-content{
+	width: 55%;
+    display: inline-block;
+}
+/*#events-div .events-display .single-event .event-content h3{
+	    margin-top: 0px;
+    margin-bottom: 0px;
+        border-bottom: 1px solid #23a897;
+}
+#events-div .events-display .single-event .event-content h3 a{
+    color: #111;
+        font-size: 20px;
+    line-height: 1.6em;
+}
+#events-div .events-display .single-event .event-content h3 a:hover{
+	    color: #23a897;
+}*/

@@ -1,0 +1,34 @@
+//Hidden page title
+body.hidden-page-title {
+	.breadcrumbs {
+		background: $thim_thim_body_primary_color;
+	}
+}
+.page-title {
+	&[class*="courses_archive_"] {
+		.breadcrumbs {
+			ul {
+				li {
+					span {
+						color: $thim_thim_body_primary_color;
+					}
+					a:hover {
+						span {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+	.breadcrumbs ul li {
+		> span {
+			color: $thim_thim_body_primary_color;
+		}
+		> a:hover {
+			> span {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}

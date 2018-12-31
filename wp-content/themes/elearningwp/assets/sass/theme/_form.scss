@@ -1,0 +1,65 @@
+.contact-page {
+	.row {
+		margin-left:  -15px;
+		margin-right: -15px;
+		.wpcf7-form-control-wrap {
+			width: 33.33%;
+			padding: 0 15px;
+			float: left;
+		}
+	}
+	p{
+		margin-bottom: 30px;
+	}
+	.wpcf7-not-valid-tip {
+		display: none;
+	}
+	.wpcf7-validation-errors {
+		text-align: center;
+	}
+}
+
+.wpcf7-form-control {
+	background: none;
+	color: #AAAAAA;
+	width: 100%;
+	padding: 12px 25px;
+	border-radius: 5px;
+	border: 1px solid $border-color;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 300;
+	&.wpcf7-not-valid {
+		border-color: red;
+	}
+	&.wpcf7-submit {
+		color: #fff;
+		border-radius: 5px;
+		width: auto;
+		padding: 0px 30px;
+		text-align: center;
+		line-height: 40px;
+		border: none;
+		font-weight: bold;
+		font-style: normal;
+		&:hover {
+			background-color: #323945;
+		}
+	}
+	&.wpcf7-textarea {
+		width: 100%;
+	}
+}
+.contact-button {
+	text-align: center;
+}
+
+div.wpcf7-response-output{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/*Register form*/
+input.invalid{
+	border-color: red !important;
+}
