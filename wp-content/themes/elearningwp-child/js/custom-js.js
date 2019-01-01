@@ -27,4 +27,11 @@ jQuery("#pgc-313-1-1").prepend("<div class='about-counter-img' ><img src='http:/
 jQuery("#pgc-313-1-2").prepend("<div class='about-counter-img' ><img src='http://localhost/hybrid-ins/wp-content/themes/elearningwp-child/images/customers.png'/></div>" );
 
 jQuery("#pgc-313-1-3").prepend("<div class='about-counter-img' ><img src='http://localhost/hybrid-ins/wp-content/themes/elearningwp-child/images/course-published.png'/></div>" );
+
+
+// removing sub-menu class from the second ul for making it down to the above li 
+jQuery(".menu-main-menu li ul li ul").removeClass("sub-menu");
+
+jQuery(".menu-main-menu li ul li ul").addClass("nav-menu-sub-child");
+
 });

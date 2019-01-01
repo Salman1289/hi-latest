@@ -1,7 +1,7 @@
 <?php
 /**
  * The sidebar containing the main widget area.
- *
+ * Note : Sidebar is divided into 3 parts, one for custom post types like articles and events,second for admission pages like admission requirements and third for all other pages, because they all have differen
  * @package thim
  */
 if (!is_active_sidebar('sidebar-1')) {
@@ -139,11 +139,71 @@ wp_reset_query();
 
 	else{
 
+	
+	$pagename = get_query_var('pagename'); //this is the slug of page
+	
+	$page_id = get_the_ID();
+
+	if($pagename == 'admission-requirements' || $pagename == 'scholarships' || $pagename == 'rules-and-regulations' || $pagename == 'fee-structure' ){ 
+
+
+	 $args = array(
+        'post_parent' => 13409,    //13409 is the page id of admissions page
+        'post_type'   => 'page',
+        'numberposts' => -1,
+        'post_status' => 'publish'
+    );
+
+    $children = get_children( $args, $output ); 
+
+
+    ?>
+<?php if (!empty($children)):?>
+	<div class="admissions-sidebar-main">
+    <h4>Admissions</h4>
+    <ul>
+        <?php foreach($children as $dest){
+            $permalink = get_permalink($dest->ID);
+            
+            if($dest->ID == $page_id){
+
+            	 echo "<li class='active'><a href='{$permalink}'>" . $dest->post_title . "</li>";
+
+            }else{
+
+            echo "<li class=''><a href='{$permalink}'>" . $dest->post_title . "</li>";
+        }
+
+        }?>
+    </ul>
+</div>
+<?php endif;?>
+
+	<!-- I have created an admission page and make it parent of all the pages related to admissions -->
+
+<!-- <ul>
+	<li>Admission Requirements</li>
+
+</ul> -->
+
+
+<?php
+		 // end sidebar widget area 
+	}
+	
+	// if of admission pages ends here
+	else{
+
 if ( ! dynamic_sidebar( 'sidebar-courses' ) ) :
 		dynamic_sidebar( 'sidebar-courses' );
 	endif; // end sidebar widget area 
+	
+// if of others ends here
+
 	}
 
+
+}
 
 	?>
 </div><!-- #secondary -->

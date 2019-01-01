@@ -1,3 +1,81 @@
+----------01-01-2019 @ 05:23:00----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 593bf54b95
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+)
+
+
+=> file      :D:\xampp\htdocs\hybrid-ins\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> line      :112
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-01-2019 @ 05:22:57----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 593bf54b95
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+)
+
+
+=> file      :D:\xampp\htdocs\hybrid-ins\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> line      :112
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-01-2019 @ 05:22:52----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 593bf54b95
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+)
+
+
+=> file      :D:\xampp\htdocs\hybrid-ins\wp-content\plugins\learnpress\inc\abstracts\abstract-background-process.php
+=> line      :112
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
 ----------12-31-2018 @ 06:55:52----------
 Array
 (

@@ -62,17 +62,13 @@ $course_includes    = get_post_meta( get_the_ID(), 'thim_course_includes', true 
 	<div id="sing-button-sidebar" class="col-md-3 col-sm-12 sticky-sidebar">
 		<div class="single-button">
 			<div class="price-box">
+				<div class="course-title-box">
+					<?php learn_press_course_title();?>
+				</div>
 				<?php learn_press_course_price(); ?>
 			</div>
 			<?php if ( ! empty( $course_includes ) ) { ?>
 				<div class="button-box">
-					<?php learn_press_course_buttons(); ?>
-					<?php if ( ! empty( $course_info_button ) ) { ?>
-						<p class="intro"><?php echo $course_info_button; ?></p>
-					<?php } else { ?>
-						<p class="intro"><?php echo esc_html__( '30-Day Money-Back Guarantee', 'elearningwp' );; ?></p>
-					<?php } ?>
-
 					<div class="includes-box">
 						<?php
 						if ( learn_press_is_learning_course() ) {
@@ -84,6 +80,15 @@ $course_includes    = get_post_meta( get_the_ID(), 'thim_course_includes', true 
 						}
 						?>
 					</div>
+					
+					<?php learn_press_course_buttons(); ?>
+					<?php if ( ! empty( $course_info_button ) ) { ?>
+						<p class="intro"><?php echo $course_info_button; ?></p>
+					<?php } else { ?>
+						<p class="intro"><?php echo esc_html__( '30-Day Money-Back Guarantee', 'elearningwp' );; ?></p>
+					<?php } ?>
+
+					
 				</div>
 			<?php } ?>
 			<?php if ( function_exists( 'thim_course_wishlist_button' ) ) { ?>

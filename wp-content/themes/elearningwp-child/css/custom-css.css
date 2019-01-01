@@ -594,4 +594,239 @@ margin-bottom: 6px;
     border-bottom: none;
 }
 
-/*for single event*/
+
+#row-course-instructor .thim-about-author .author-wrapper .author-avatar img.photo{
+        border: 2px solid #80808063;
+    padding: 2px;
+}
+#row-course-instructor .thim-about-author .author-wrapper .author-bio{
+        padding-left: 25px;
+    padding-top: 25px;
+}
+#row-course-instructor .thim-about-author .author-wrapper .author-bio .author-top .name{
+    font-size: 20px;
+        color: rgb(35, 168, 151);
+}
+#row-course-instructor .thim-about-author .author-wrapper .author-bio .author-top .job{
+    font-style: normal;
+}
+.course-instructor-item .author-avatar img.photo{
+    border-radius: 50%;
+        border-radius: 50%;
+    border: 1px solid gray;
+    padding: 2px;
+}
+.course-instructor-item{
+    padding-top: 30px;
+    text-align: center;
+}
+.course-instructor-item .author-bio .author-top{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.course-instructor-item .author-description{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.thim-ralated-course .related-title{
+        padding-bottom: 15px;
+}
+.thim-ralated-course .related-title:before{
+    width: 172px;
+    background: rgb(35, 168, 151);
+    height: 1px;
+}
+.learnpress #course-landing .course-curriculum .course-curriculum-title, .learnpress #course-learning .course-curriculum .course-curriculum-title{
+    padding-bottom: 8px;
+}
+.learnpress #course-landing .course-curriculum ul.curriculum-sections .section .section-header, .learnpress #course-learning .course-curriculum ul.curriculum-sections .section .section-header{
+    padding: 6px 0 8px;
+}
+#course-landing div[id*=row-course-] .title_row_course, #course-learning div[id*=row-course-] .title_row_course{
+        padding: 20px 0 6px;
+}
+.single-lp_course .wishlist-box{
+    display: none;
+}
+.learn-press-message:before{
+        background: rgb(35, 168, 151);
+}
+.single.single-lp_course .single-button .button-box{
+        padding: 15px 21px;
+}
+.single-lp_course .single-button .button-box .includes-box ul li{
+text-align: left;
+}
+.single-button .price-box{
+        background: rgba(35, 168, 151, 0.59);
+               padding: 15px 10px 22px;
+}
+
+.lp-single-course .course-title-box h1{
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.lp-single-course .course-price .origin-price{
+        font-size: 20px;
+    text-decoration: line-through;
+    font-style: normal;
+    margin-right: 10px;
+    font-weight: 400;
+    color: #000;
+}
+.single-button .button-box .includes-box{
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e8ed;
+     padding-top: 0px; 
+     margin-top: 0px; 
+     border-top: none;
+     margin-bottom: 20px;
+}
+.single-button .button-box .includes-box p{
+        font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24px;
+}
+.single-button .button-box .lp-course-buttons form button,.single-button .button-box .btn{
+    border-radius: 0px;
+    border: 1px solid rgb(35, 168, 151); 
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.single-button .button-box .learn-press-course-wishlist,.single-button .button-box .intro{
+    display: none;
+}
+.single.single-lp_course #main .archive-courses article .inner-course .course-price{
+       position: absolute;
+    bottom: 150px;
+    /*color: rgb(35, 168, 151); */
+}
+.lp-single-course .course-price .price{
+
+    float: left;
+    margin-left: 20%;
+}
+.nav .tc-menu-layout-default .sub-menu{
+    border-top: 2px solid rgb(35, 168, 151); 
+    border-bottom: 2px solid rgb(35, 168, 151); 
+}
+.navigation .navbar-nav li.tc-menu-layout-default .sub-menu li a{
+
+        color: rgb(34, 31, 31);
+}
+.navigation .navbar-nav li.tc-menu-layout-default .sub-menu li a:hover{
+    color: rgb(35, 168, 151); 
+}
+.menu-main-menu .nav-menu-sub-child li{
+    padding-left: 0px!important;
+}
+.menu-main-menu .nav-menu-sub-child li a{
+    padding-left: 20px!important;
+}
+.menu-main-menu .nav-menu-sub-child li a:before{
+   content: "\f061";
+    font: normal normal normal 14px/1 FontAwesome;
+    float: right;
+    margin-top: 3px; /* FontAwesome Unicode */
+
+  /*display: inline-block;*/
+   /* same as padding-left set on li */
+
+}
+.navigation .navbar-nav li.tc-menu-layout-default .sub-menu li.menu-item-has-children>a:after, .navigation .navbar-nav li.tc-menu-layout-default .sub-menu li.menu-item-has-children>span.disable_link:after{
+        content: "";
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 35px;
+    height: 1px;
+    background: rgb(35, 168, 151);
+}
+/*.sub-menu{
+    display: block!important;
+}*/
+
+.navigation .navbar-nav li.tc-menu-layout-default .sub-menu{
+ background: #ffffffe0;
+     padding-top: 10px;
+}
+.admission-req-main .adm-req-heading{
+
+    color: rgb(35, 168, 151);
+}
+.admission-req-content h4{
+margin-bottom: 3px;
+}
+.admission-req-main p,.admission-req-content p{
+text-align: justify;
+}
+.admission-req-content .bottom-row{
+        height: 2px;
+    width: 100px;
+    background: rgb(35, 168, 151);
+    display: block;
+        margin-bottom: 15px;    
+}
+.admission-req-content .adm-image-div{
+    padding: 5px;
+        border: 1px solid #ddd;
+}
+.admission-req-content .adm-image-div img{
+    width: 100%;
+}
+.admissions-sidebar-main h4{
+    margin-left: -10px;
+    margin-right: -15px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.admissions-sidebar-main h4:after{
+        left: 8%;
+    top: 70px;
+    height: 1px;
+    width: 81%;
+    background: #23a897;
+    content: "";
+    position: absolute;
+}
+.admissions-sidebar-main ul li{
+        font-size: 15px;
+    text-transform: capitalize;
+    line-height: 30px;
+        margin-bottom: 10px;
+    border-bottom: 1px solid #80808073;
+    list-style: none;
+}
+.admissions-sidebar-main ul li a{
+    color: #242830;
+}
+.admissions-sidebar-main ul li.active a{
+    color: rgb(35, 168, 151);
+}
+.admissions-sidebar-main ul li.active:before{
+
+ color: rgb(35, 168, 151);
+
+}
+
+.admissions-sidebar-main ul li a:hover{
+        color: rgb(35, 168, 151);
+}
+.admissions-sidebar-main ul li:before {
+    content: "\f061";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -0.3em;
+    width: 1.3em;
+}
+.admissions-sidebar-main ul li:hover:before{
+     color: rgb(35, 168, 151);
+}
+.admissions-sidebar-main ul li:last-of-type{
+    border-bottom: none;
+    margin-bottom: 20px;
+}
